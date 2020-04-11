@@ -1,0 +1,51 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.col {
+    margin-left: 220px;
+}
+
+#portofolio {
+    href= portofoli.html;
+}
+
+#sidebar {
+    width: 200px;
+    position: fixed;
+    height: 100vh;
+    z-index: 999;
+    background: #000000;
+    color: #fff;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #000000;
+}
+
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+
+#sidebar ul li a {
+    padding: 20px;
+    font-size: 1.1em;
+    display: block;
+    color: #daa520;
+}
+
+ul ul a {
+    font-size: 1em !important;
+    padding-left: 30px !important;
+    background: #000000;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    right: 20px;
+}
