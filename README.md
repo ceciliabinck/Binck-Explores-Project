@@ -77,6 +77,7 @@ libraries
 •	https://github.com/Geomint/holiday-destinations
 •	https://github.com/AJGreaves/bootstrap-grid-demo/blob/master/README.md
 •	https://github.com/ceciliabinck/Travel-with-Rajesh
+EmailJS.com
 •	JQuery
 	I have to put in for what
 Testing
