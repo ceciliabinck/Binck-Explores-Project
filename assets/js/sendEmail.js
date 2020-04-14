@@ -18,3 +18,9 @@ function sendMail(contactForm) {
     return false;
 }
 
+
+function sendMailclick(function(){
+    let successMsg = "Thanks for your email it has been successful";
+    let failMessage = "Sorry your email failed to reach us. Please try again later";
+    `$("#ID).append(<p>${successMsg}</p>)`
+})
