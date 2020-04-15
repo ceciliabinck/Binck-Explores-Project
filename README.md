@@ -78,6 +78,9 @@ libraries
 •	https://github.com/AJGreaves/bootstrap-grid-demo/blob/master/README.md
 •	https://github.com/ceciliabinck/Travel-with-Rajesh
 EmailJS.com
+https://www.w3schools.com/jsref/met_win_alert.asp
+https://github.com/googlemaps/v3-utility-library/tree/master/packages/markerclustererplus
+https://console.cloud.google.com/marketplace?organizationId=0&project=ucd-resume-271416
 •	JQuery
 	I have to put in for what
 Testing
