@@ -8,15 +8,11 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
-            console.log("SUCCESS", response);
+            alert("Thank you for your email. We have received it.");
         },
         function(error) {
-            console.log("FAILED", error)
+            alert("Sorry your email failed to reach us. Please try again later.")
         }
     );
     return false;
-}
-
-function getResponse() {
-    alert("Thank you for your email. We have received it.")
 }
