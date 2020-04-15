@@ -1,5 +1,4 @@
 function sendMail(contactForm) {
-    console.log("check");
     emailjs.send("gmail", "binck_explores", {
         "from_first_name": contactForm.first_name.value,
         "from_last_name": contactForm.last_name.value,
@@ -18,9 +17,6 @@ function sendMail(contactForm) {
     return false;
 }
 
-
-function sendMail.click(function(){
-    let successMsg = "Thanks for your email it has been successful";
-    let failMessage = "Sorry your email failed to reach us. Please try again later";
-    `$("#ID).append(<p>${successMsg}</p>)`
-})
+function getResponse() {
+    alert("Thank you for your email. We have received it.")
+}
