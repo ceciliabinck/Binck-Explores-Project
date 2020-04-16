@@ -8,7 +8,7 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
-            alert("Thank you for your email. We have received it.");
+            alert("Thank you for your email. We have received your email.");
         },
         function(error) {
             alert("Sorry your email failed to reach us. Please try again later.")
