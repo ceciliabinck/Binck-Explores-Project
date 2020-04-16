@@ -2,9 +2,6 @@ h2 {
     font-size: medium;
 }
 
-#portofolio {
-    href= portofolio.html;
-}
 
 /* Navbar */
 .wrapper {
@@ -88,3 +85,8 @@ ul ul a {
   #message {
     min-height: 100px;
   }
+
+.map {
+    width: 400px;
+    height: 200px;
+}
