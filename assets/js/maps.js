@@ -10,9 +10,13 @@ function initMap() {
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var lacations = [
-        { lat: 40.785091, lng: -73.968285 },
-        { lat: 41.084045, lng: -73.874245 },
-        { lat: 40.754932, lng: -73.984016 }
+        /* Canada */
+        { lat: 59.913869, lng: 10.752245 }, /* lake louise */
+        { lat: 51.178363, lng: -115.570769 }, /* Banff */
+        { lat: 53.544389, lng: -113.490927 }, /* Edmonton */
+        { lat: 51.048615, lng: -114.070846 }, /* Calgary */
+        { lat: 49.285332, lng: -123.129916 } /* Vancover */
+
     ];
     var markers = locations.map(function(location, i){
         return new google.maps.Marker({
