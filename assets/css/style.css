@@ -2,7 +2,17 @@ h2 {
     font-size: medium;
 }
 
+/* container need to find another way to do this */
 
+.container {
+    width: 80%;
+    margin-left: 220px;
+}
+
+/* col i have to see if there is another way also to do this */
+.col-12 {
+    padding: 30px;
+}
 /* Navbar */
 .wrapper {
     display: flex;
@@ -10,7 +20,7 @@ h2 {
 }
 
 .col {
-    margin-left: 220px;
+    padding-left: 25px;
 }
 
 #sidebar {
@@ -18,13 +28,13 @@ h2 {
     position: fixed;
     height: 100vh;
     z-index: 999;
-    background: #000000;
-    color: #fff;
+    background: #262626;
+    color: rgb(250, 154, 11);
 }
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #000000;
+    background: #262626;
 }
 
 
@@ -37,13 +47,13 @@ h2 {
     padding: 20px;
     font-size: 1.1em;
     display: block;
-    color: #daa520;
+    color: rgb(250, 154, 11);
 }
 
 ul ul a {
     font-size: 1em !important;
     padding-left: 30px !important;
-    background: #000000;
+    background: #262626;
 }
 
 .dropdown-toggle::after {
