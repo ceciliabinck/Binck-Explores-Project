@@ -2,18 +2,21 @@ h2 {
     font-size: medium;
 }
 
+
 /* container need to find another way to do this */
 
 .container {
-    width: 80%;
+    width: 81%;
     margin-left: 220px;
+    padding: 0;
 }
 
-/* col i have to see if there is another way also to do this */
+/* col  */
 .col,
 .col-12 {
-    padding: 30px;
+    padding-left: 30px;
 }
+
 /* Navbar */
 .wrapper {
     display: flex;
@@ -99,7 +102,23 @@ ul ul a {
     min-height: 100px;
   }
 
-.map {
-    width: 400px;
-    height: 200px;
+#map {
+    height: 400px;
 }
+
+  /*---------------------------------- portfolio */
+
+  .images {
+    column-count: 3;
+  }
+
+  
+  #photo img {
+    width: 100%;
+    column-gap: 10px;
+    gap: 10px;
+  }
+  
+  
+  
+  
