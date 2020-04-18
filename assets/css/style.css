@@ -1,7 +1,12 @@
+
+
 h2 {
     font-size: medium;
 }
 
+p {
+    text-align: justify;
+}
 
 /* container need to find another way to do this */
 
@@ -18,11 +23,6 @@ h2 {
 }
 
 /* Navbar */
-.wrapper {
-    display: flex;
-    width: 100%;
-    align-items: stretch;
-}
 
 .col {
     padding-left: 25
@@ -32,10 +32,11 @@ h2 {
 #sidebar {
     width: 200px;
     position: fixed;
-    height: 100vh;
+    height: 100%;
     z-index: 999;
     background: #262626;
     color: rgb(250, 154, 11);
+
 }
 
 #sidebar .sidebar-header {
@@ -119,6 +120,6 @@ ul ul a {
     gap: 10px;
   }
   
-  
+
   
   
