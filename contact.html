@@ -10,7 +10,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
     </script>
     <script type="text/javascript">
-        (function(){
+        (function() {
             emailjs.init("user_Q53yL3ZFIWtDufzUrjHf6");
 
         })();
@@ -19,13 +19,12 @@
 
 </head>
 
-<body>
-    <div class="wrapper">
-
+<body id="bg-image">
+    <header>
         <!-- Sidebar -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h2>BE</h2>
+                <h1>BE</h1>
             </div>
 
             <ul class="list-unstyled components">
@@ -79,82 +78,91 @@
                 </li>
             </ul>
         </nav>
-    </div>
+    </header>
 
-    <div class="container">
+    <!-- name -->
+    <section class="container">
         <div class="row">
-            <!-- name -->
             <div class="col">
                 <h1>Binck Explores</h1>
             </div>
         </div>
-    </div>
+    </section>
+    <!--contact form-->
+    <section class="form-section container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <form onsubmit="return sendMail(this);" class="contact-form">
+
+                    <h3>Would you like to get in contact with us? You only need to fill in the form belowe</h3>
+
+                    <div id="send">
+                    </div>
+
+                    <label for="fname">First Name:</label>
+
+                    <input class="text-input" type="text" name="first_name" id="fname" required />
+
+                    <div class="valid-feedback">
+
+                        Looks good!
+
+                    </div>
+
+                    <label for="lname">Last Name:</label>
+
+                    <input class="text-input" type="text" name="last_name" id="lname" required />
 
 
-    </div>
-    </div>
 
-    <section class="form-section">
+                    <label for="email">Email Address:</label>
 
-        <form onsubmit="return sendMail(this);" class="contact-form">
+                    <input class="text-input" type="email" name="email_address" id="email" required />
 
-            <h3>Would you like to get in contact with us? You only need to fill in the form belowe</h3>
 
-            <div id="send">
+
+                    <label for="interest">Interested In:</label>
+
+                    <input class="text-input" type="text" name="interested_in" id="interest" required />
+
+
+
+                    <label for="message">Message</label>
+
+                    <textarea class="text-input" id="message" rows="5" required></textarea>
+
+                    <input class="send" type="submit" value="Send">
+
+                </form>
             </div>
-
-
-            <label for="fname">First Name:</label>
-
-            <input class="text-input" type="text" name="first_name" id="fname" required />
-
-            <div class="valid-feedback">
-
-                Looks good!
-
-            </div>
-
-
-
-            <label for="lname">Last Name:</label>
-
-            <input class="text-input" type="text" name="last_name" id="lname" required />
-
-
-
-            <label for="email">Email Address:</label>
-
-            <input class="text-input" type="email" name="email_address" id="email" required />
-
-
-
-            <label for="interest">Interested  In:</label>
-
-            <input class="text-input" type="text" name="interested_in" id="interest" required />
-
-
-
-            <label for="message">Message</label>
-
-            <textarea class="text-input" id="message" rows="5" required></textarea>
-
-            <input class="send" type="submit" value="Submit">
-
-        </form>
+        </div>
 
     </section>
 
 
-
-
-    <footer>
-
-
+    <footer class="container">
+        <div class="row">
+            <div class="col-ms-4">
+                <p>Do you want to know some more about us</p>
+                <a href="about.html">Click here</a>
+            </div>
+            <div class="col-ms-4">
+                <p>Do you want to get in touch with us</p>
+                <a href="contact.html">Click here</a>
+            </div>
+            <div class="col-ms-4">
+                <p>put in social media</p>
+                <a href="contact.html">Click here</a>
+            </div>
+        </div>
     </footer>
     <script src="assets/js/sendEmail.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
 
 
