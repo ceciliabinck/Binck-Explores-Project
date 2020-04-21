@@ -8,6 +8,10 @@ body {
     background-size: cover;
 }
 
+#head {
+    margin-left: 0;
+}
+
 h1,
 h2,
 h3,
@@ -24,8 +28,7 @@ p {
 
 /* container need to find another way to do this */
 
-.container,
-footer {
+.container {
     width: 81%;
     margin-left: 220px;
     padding: 0;
@@ -102,7 +105,6 @@ ul ul a {
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #525252;
-    ;
     border-radius: 2px;
 }
 
@@ -115,9 +117,10 @@ label {
     min-height: 100px;
 }
 
-#map {
+
+/*#map {
     height: 400px;
-}
+}*/
 
 
 /*---------------------------------- portfolio */
@@ -166,4 +169,28 @@ label {
     margin-bottom: 10px;
     margin-top: 10px;
     padding-right: 12px;
+}
+
+
+/*------ footer ---------*/
+
+footer {
+    min-height: 120px;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #262626;
+    color: #ff8c00;
+    padding-left: 220px;
+}
+
+footer .col-12 {
+    padding-left: 0;
+    max-width: 80%;
+}
+
+footer a {
+    color: #ff8c00;
 }
