@@ -1,0 +1,53 @@
+div#gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+div#gallery div>input {
+    width: 33%;
+}
+
+div#gallery figure img {
+    width: 100%;
+}
+
+#pic-pop h5 {
+    color: #ff8c00;
+}
+
+#pic-pop button {
+    color: #262626;
+    background-color: #ff8c00;
+}
+
+.modal-content {
+    background-color: #262626;
+}
+
+
+/*-------------photos--------------*/
+
+#swan-love {
+    background-image: url("assets/img/Gallery/thumbs/swans-at-river.jpg");
+}
+
+#city-tree {
+    background-image: url("assets/img/Gallery/thumbs/big-tree-in-city.jpg");
+}
+
+#lion-castle {
+    background-image: url("assets/img/Gallery/thumbs/view-from-square.jpg");
+}
+
+.modal-footer {
+    display: block;
+}
+
+.modal-footer p {
+    color: #ff8c00;
+    float: left;
+}
+
+.modal-footer button {
+    float: right;
+}
