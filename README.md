@@ -105,6 +105,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
     * https://github.com/googlemaps/v3-utility-library/tree/master/packages/markerclustererplus
     * https://console.cloud.google.com/marketplace?organizationId=0&project=ucd-resume-271416
     * https://www.w3schools.com/graphics/google_maps_basic.asp
+    * http://thenewcode.com/284/A-Simple-Responsive-JavaScript-Image-Gallery, for the base of my gallery.
 •	JQuery
 	I have to put in for what
 ## Testing
