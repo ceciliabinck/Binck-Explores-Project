@@ -4,7 +4,7 @@ body {
 }
 
 #bg-image {
-    background: url("/assets/img/blog/going-traveling.jpg") no-repeat center center fixed;
+    background: url("/assets/img/blog/harber-view.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -24,7 +24,8 @@ p {
 
 /* container need to find another way to do this */
 
-.container {
+.container,
+footer {
     width: 81%;
     margin-left: 220px;
     padding: 0;
@@ -55,12 +56,8 @@ p {
 }
 
 #sidebar .sidebar-header {
-    padding: 20px;
+    padding-left: 20px;
     background: #262626;
-}
-
-#sidebar ul.components {
-    padding: 20px 0;
 }
 
 #sidebar ul li a {
@@ -170,13 +167,3 @@ label {
     margin-top: 10px;
     padding-right: 12px;
 }
-
-
-/*@media (max-width: 768px) {
-    #sidebar {
-        margin-left: -250px;
-    }
-    #sidebar.active {
-        margin-left: 0;
-    }
-}*/
