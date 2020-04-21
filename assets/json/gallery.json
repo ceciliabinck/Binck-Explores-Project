@@ -101,7 +101,13 @@
 }],
 
 [{
-    "Picture": "Torres Del Paine",
-    "description": "View from the lake at Torres Del Paine at Patagonia, Chili",
-    "image-src": "assets/img/Gallery/"
+    "Picture": "Baby water buffalo",
+    "description": "Baby water buffalo looking outside its pen in Dhading, Nepal",
+    "image-src": "assets/img/Gallery/nepal/baby-waterbuffalo.jpg"
+}],
+
+[{
+    "Picture": "Sunrise",
+    "description": "The sun coming up over the water fields in Breda, Netherlands",
+    "image-src": "assets/img/Gallery/netherlands/sunrise-waterfields.jpg"
 }]
