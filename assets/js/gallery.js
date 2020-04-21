@@ -6,3 +6,7 @@ thumbs.addEventListener("click", function(e) {
     fullsize.src = "assets/img/Gallery/full" + filename;
     caption.innerHTML = e.target.alt;
 })
+
+function popupImg(params) {
+
+}
