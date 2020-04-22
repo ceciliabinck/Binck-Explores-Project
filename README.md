@@ -1,10 +1,6 @@
 # Binck Explores
 :house: 
 
-I have started a blog a couple of yours ago on Wordpress. I like so many people in this big world was afraid to go and traveling alone. It was this big and scary thing, even though I used to a lot already alone. In the last year of university I thought it was time to just go and travel even though no one else had time because if I had to wait till someone had time I could be eighty. 
-
-So I got a travel around the world ticket with the place I wanted to see and the two counties where I was starting off with doing volunteer work. I have to tell you it was not great all the time but I fell in love with traveling and meeting new people and making friends all over the world.
-
 So a couple of years ago I decided to start showing people that traveling solo isn't that scary and that you can learn a lot about yourself. I have never been very happy about Wordpress, everyone has its own preference, and always wanted to do something else to make it more mine.
 
 This second project is for me so to get back at sharing my experience with traveling with people that are interested in traveling but are not ready to take that first step. I don't just want to inspire them to take the first step just by writing blogs, I want to show then that this is a big world with beautiful place by sharing pictures i have made while I was traveling.
@@ -52,19 +48,24 @@ I made my wireframe on the website moqups.com, it looked like a good website and
 
 ## Design
 
-The design I come up with for my project is different to most of the webepages that we see on a daily basis and involves a lot of pictures. I thought the design looked good but after working on it for a while I found out that it is not going to work as well as I hoped, so I had to make some changes.
+### Fonts
 
-color navbar:
+* The primary fond is **Roboto** because I think it is very readable and compact, it is used on all the main text. 
+* The secondary fond is **Merriweather** because I think the two fonts go well together. It is in the same style but it looks a bit more elegant. They don't differ to much from each other but it is very clear it is different. 
 
-https://www.w3schools.com/colors/colors_picker.asp?colorhex=000000
+### Icons
 
-navbar text: https://www.w3schools.com/colors/color_tryit.asp?hex=FF8C00
+All the social media icons I have choose are very understandable for everyone.
 
-### Navbar
+### Color
 
-I wanted my webe page to stand out so the navbar in vertical instead of horizontal. I made the disicion to make it a very bold and in your face because i wanted to be a design statement of my project. I started with a black background color but I think that is a bit to hard for what I want.
+The colors for this project are **#262626** and **ff8c00**. I choose **#262626** to make the navbar stand out from the rest of the content of the page. I choose **ff8c00** because I want to put a bit of my background in it. It pops out of the dark background and it has a special meaning to me.
 
-The colors of the text on the navbar i want them to pop out the dark background. I was thinking about making the logo and what colors and I want to put a bit of my background in it, I still have to make it. But it made me decide to give the text the color orange. It pops out of the dark background and it has a special meaning to me.
+From there it grew further in my project, if i needed to make sections clear and the footer.
+
+### Styling 
+The design I come up with for my project is different to most of the webpages that we see on a daily basis and involves a lot of pictures. I thought the design looked good but after working on it for a while I found out that it is not going to work as well as I hoped, so I had to make some changes.
+
 
 
 
@@ -90,30 +91,46 @@ In this section, you should mention all of the languages, frameworks, libraries,
 * JavaScript
 * Propper
 * Markdown
+* JSON
 
-## libraries
+## libraries :books:
 
-* Bootstrap, bootstrap.com
+* For the main grid of the page:
+    * Bootstrap, bootstrap.com
+* For my sidebar:
     * https://bootstrapious.com/p/bootstrap-sidebar, I have used the code from here to make the basis
-* Github, github.com. To help me with creating a better README.md and to help me with documenting my project in a little more detail.
+    * https://getbootstrap.com/docs/4.4/components/navbar/
+* To help me with creating a better README.md and documenting my project in a little more detail.
+    * Github, github.com.
     * https://github.com/Geomint/holiday-destinations
     * https://github.com/AJGreaves/bootstrap-grid-demo/blob/master/README.md
     * https://github.com/ceciliabinck/Travel-with-Rajesh
-* EmailJS.com
-* https://www.w3schools.com/jsref/met_win_alert.asp
+    * https://github.com/tchapi/markdown-cheatsheet
+    * https://www.webfx.com/tools/emoji-cheat-sheet/
+* EmailJS.com, to send the contavt form.
+* www.w3school.com
+    * https://www.w3schools.com/jsref/met_win_alert.asp
+    * https://www.w3schools.com/colors/colors_picker.asp?colorhex=000000
+    * https://www.w3schools.com/colors/color_tryit.asp?hex=FF8C00
 * For my google maps:
     * https://github.com/googlemaps/v3-utility-library/tree/master/packages/markerclustererplus
     * https://console.cloud.google.com/marketplace?organizationId=0&project=ucd-resume-271416
     * https://www.w3schools.com/graphics/google_maps_basic.asp
-    * http://thenewcode.com/284/A-Simple-Responsive-JavaScript-Image-Gallery, for the base of my gallery.
+* For my map:
+    *  https://leafletjs.com/
+    * https://github.com/TravelTimN/ci-ifd-lead/blob/master/week4-leafletjs/leaflet.md
+* For my photo gallery:
+    * http://thenewcode.com/284/A-Simple-Responsive-JavaScript-Image-Gallery.
+    * https://getbootstrap.com/docs/4.4/components/modal/.
 •	JQuery
 	I have to put in for what
+
 ## Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-###Contact form:
+### Contact form:
 * Went to the Contact page.
 * Tried to send the form without filling in any of the fields to see if an error would appear, it did.
 * Tried to sent the form without filling in a correct email address to see if an error would appear, it did.
@@ -123,39 +140,45 @@ For any scenarios that have not been automated, test the user stories manually a
 --In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.--
 
 
-##Bugs in development
+## Bugs :bug: in development
 
-###Bug 1.
+### Bug 1.
 When submitting contact form it gave an error.
 
-###Solution:
+Solution:
 I had used the wrong value names in my function so when I gave  the values the same names as the parameters I was able to send and receive an email. 
 
-###Bug 2.
+### Bug 2.
 After setting up my Google maps API it was not showing a map.
 
-###Solution:
+Solution:
 Tutor Scott Kipp saw that my function was targeting an ID but in my HTML file I put in a class. So I only had to changed the class in to ID in my HTML file .
 
-###Bug 3.
+### Bug 3.
 My background image would not cover the entire page or would through off the navbar.
 
-###Solution:
+Solution:
 Tutor Tim Nelson has looked at it and found that with less css and when put in the body element it works. It will still be under the navbar but it covers the entire page.
 
-###Bug 4.
+### Bug 4.
 Container keeps sliding under the navbar.
 
-###solution:
+Solution:
 I gave the container a margin-left of 220px to push it from going under the navbar.
 
-##Remaining bugs
+### Bug 5.
+All images are in a folder in VS code. Some of the images are turned sideways on my page.
+
+Solution:
+I have tried many things but when I was working on my map and was looking for it on my page all the images where in the correct position.
+
+## Remaining bugs
 
 I replaced the markers in my function for Google maps. Now no markers show up in the Google maps map.
 
 
 
-Deployment
+## Deployment :rocket:
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 Different values for environment variables (Heroku Config Vars)?
@@ -166,15 +189,15 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
-### Content
+### Content :black_nib:
 
-The text for section Y was copied from the Wikipedia article Z
+Most of the contant in this project are frome the webpage www.binckexplores.com. The rest of the content is written by myself.
 
 ### Media :camera:
-The photos used in this site were obtained from ...
+The photos used in this site were obtained from the folder photo's on my computer. All the photos used on this site are made by myself while traveling different countries.
 
 ### Acknowledgements
-I want to thank Tom Dignan for all his help especially when I switched over from cloud9 to Visual Studio Code. Ow what was that difficult to set it up so that I could and I couldn't have done it without his help. Tom is the best (put smily)
+I want to thank Tom Dignan for all his help especially when I switched over from cloud9 to Visual Studio Code. Ow what was that difficult to set it up so that I could and I couldn't have done it without his help. he also gave me feedback on different issues I have had. Tom is the best :smiley:.
  
-I received inspiration for this project from X
+I received inspiration for this project from my frustration of my lack of Wordpress.
 
