@@ -11,33 +11,38 @@ thumbs.addEventListener("click", function(e) {
  * Load function for retrieving local JSON file.
  */
 window.onload = function() {
-    fetch(`assets/json/gallery.json`)
-        .then(response => response.json())
-        .then(data => {
+        fetch(`assets/json/gallery.json`)
+            .then(response => response.json())
+            .then(data => {
 
-            loadData(data)
+                loadData(data)
 
-        })
-        .catch(error => {
+            })
+            .catch(error => {
 
-                console.log(error)
+                    console.log(error)
 
-            }
+                }
 
-        );
+            );
 
-}
+    }
+    /** 
+     * get data and append in modal
+     */
 
 function loadData(dataSource) {
     let imageDetails = dataSource;
-    console.log(imageDetails)
+    // console.log(imageDetails)
+    console.log(imageDetails[1].description)
+
+
+    $("img").click(function() {
+        $("#descript").append(`<p id="descript">${imageDetails[1].description}</p>`);
+        console.log("modal click test ")
+
+
+
+
+    })
 }
-
-
-
-$("input").click(function() {
-
-
-
-
-});
