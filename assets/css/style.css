@@ -126,31 +126,6 @@ label {
 
 /*---------------------------------- portfolio */
 
-.images {
-    column-count: 3;
-}
-
-#photo img {
-    width: 100%;
-    column-gap: 10px;
-    gap: 10px;
-}
-
-#back-image {
-    background-image: url("/assets/img/blog/going-traveling.jpg");
-    object-fit: cover;
-    width: calc(100% - 200px);
-    height: 100%;
-    padding-left: 0;
-    background-repeat: no-repeat;
-    float: right;
-}
-
-.side-container {
-    display: flex;
-    flex-flow: nowrap;
-}
-
 
 /* ------- Blog --------*/
 
@@ -197,4 +172,11 @@ footer .col-12 {
 
 footer a {
     color: #ff8c00;
+}
+
+
+/*-------------- map --------------*/
+
+#mapid {
+    height: 180px;
 }
