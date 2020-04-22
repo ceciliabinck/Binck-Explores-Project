@@ -78,26 +78,26 @@
         <div class="row">
             <div id="photo" class="col .col-12">
                 <div id="gallery">
-                    <div>
-                        <input type="image" src="assets/img/blog/harber-view.jpg" alt="Harber skyline view">
-                        <input type="image" src="assets/img/Gallery/australia/beach-houses.jpg" alt="Beach houses">
+                    <div id="photos">
+                        <input type="image" src="assets/img/blog/harber-view.jpg" alt="Harber skyline view" />
+                        <input type="image" src="assets/img/Gallery/australia/beach-houses.jpg" alt="Beach houses" />
                         <input type="image" src="assets/img/Gallery/canada/lake-view.jpg" alt="Lake with view on mountains">
                         <input type="image" src="assets/img/Gallery/kenia/camel-at-beach.jpg" alt="Camel at beach">
                         <input type="image" src="assets/img/Gallery/kenia/giraf-with-child.jpg" alt="Giraf with child">
                         <input type="image" src="assets/img/Gallery/nepal/baby-waterbuffalo.jpg" alt="Baby water buffalo">
-                        <input type="image" src="assets/img/Gallery/swans-at-river.jpg" alt="Swans at the river">
+                        <input type="image" src="assets/img/Gallery/america/buildings-centralpark.jpg" alt="Building outside Central Park">
                         <input type="image" src="assets/img/Gallery/portugal/sunset-at-water.jpg" alt="Sunset at water">
                         <input type="image" src="assets/img/Gallery/japan/floating-shrine.jpg" alt="Floating Shrine">
                         <input type="image" src="assets/img/Gallery/japan/fushimi-shrine.jpg" alt="Fushimi Inari shrine">
                         <input type="image" src="assets/img/Gallery/hong-kong/night-skyline.jpg" alt="Night skyline over the river">
                         <input type="image" src="assets/img/Gallery/fiji/hammock-at-beach.jpg" alt="Hammock at the beach">
                         <input type="image" src="assets/img/Gallery/cambodia/boat-sunset.jpg" alt="Boat at sunset">
-                        <input type="image" src="assets/img/Gallery/america/buildings-centralpark.jpg" alt="Building outside Central Park">
-                        <input type="image" src="assets/img/Gallery/america/2-big-bridges.jpg" alt="Two famous bridges">
+                        <input type="image" src="assets/img/Gallery/swans-at-river.jpg" alt="Swans at the river">
                         <input type="image" src="assets/img/Gallery/canada/view-ski-lakelouise.jpg" alt="View while skiing">
                         <input type="image" src="assets/img/Gallery/canada/natural-bridge.jpg" alt="Natural bridge over river">
-                        <input type="image" src="assets/img/Gallery/chili/torres-del-paine.jpg" alt="Torres Del Paine">
                         <input type="image" src="assets/img/Gallery/netherlands/sunrise-waterfields.jpg" alt="Sunrise at waterfields">
+                        <input type="image" src="assets/img/Gallery/america/2-big-bridges.jpg" alt="Two famous bridges">
+                        <input type="image" src="assets/img/Gallery/chili/torres-del-paine.jpg" alt="Torres Del Paine">
 
                     </div>
                     <!-- <figure>
@@ -115,11 +115,11 @@
     <!-- Modal -->
     <section class="container">
         <div class="row">
-            <div class="col-12" id="pic-pop">
+            <div class="col-12" id="pop-up">
                 <!-- Button trigger modal -->
-                <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                <button type="button" id="pic-pop" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
                     Launch demo modal
-                </button>-->
+                </button>
 
                 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -130,12 +130,12 @@
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="modal-body">
-                                <img class="img-fluid" id="modal-img">
+                            <div class="modal-body img-fluid" id="modal-img">
+
 
                             </div>
-                            <div class="modal-footer">
-                                <p id="description"></p>
+                            <div class="modal-footer" id="descript">
+                                <p id="descript-par"></p>
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                             </div>
                         </div>
