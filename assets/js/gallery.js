@@ -7,27 +7,37 @@ thumbs.addEventListener("click", function(e) {
     caption.innerHTML = e.target.alt;
 })*/
 
+/** 
+ * Load function for retrieving local JSON file.
+ */
+window.onload = function() {
+    fetch(`assets/json/gallery.json`)
+        .then(response => response.json())
+        .then(data => {
+
+            loadData(data)
+
+        })
+        .catch(error => {
+
+                console.log(error)
+
+            }
+
+        );
+
+}
+
+function loadData(dataSource) {
+    let imageDetails = dataSource;
+    console.log(imageDetails)
+}
+
 
 
 $("input").click(function() {
-    console.log("Hello")
+
+
+
+
 });
-
-function getpopupImg() {
-    fetch(`assets/json/gallery.json?image=${image-src}&description=${description}&type=text`)
-    if (response) {
-
-    }(response => response.json())
-    .then(rawData => {
-        generateQuestionsAnswers(rawData);
-    });
-    console.log("${description}");
-
-};
-
-/*let description = gallery.json
-for (let i = 0; i < description.length; i++) {
-    console.log(description[i] + "Hello");
-let img = $(this).attr("src")
-        let newimg = "image-src"
-}*/
