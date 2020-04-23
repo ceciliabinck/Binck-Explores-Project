@@ -83,6 +83,11 @@ ul ul a {
     right: 20px;
 }
 
+.card {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
 
 /*---------------------------------- Contact */
 
@@ -117,11 +122,6 @@ label {
 #message {
     min-height: 100px;
 }
-
-
-/*#map {
-    height: 400px;
-}*/
 
 
 /*---------------------------------- portfolio */
