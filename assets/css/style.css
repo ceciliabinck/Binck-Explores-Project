@@ -132,6 +132,12 @@ label {
     min-height: 100px;
 }
 
+#submit {
+    background-color: #262626;
+    color: #ff8c00;
+    width: 140px;
+}
+
 
 /*---------------------------------- portfolio */
 
