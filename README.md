@@ -59,7 +59,7 @@ All the social media icons I have choose are very understandable for everyone.
 
 ### Color
 
-The colors for this project are **#262626** and **ff8c00**. I choose **#262626** to make the navbar stand out from the rest of the content of the page. I choose **ff8c00** because I want to put a bit of my background in it. It pops out of the dark background and it has a special meaning to me.
+The colors for this project are **#262626** and **#ff8c00**. I choose **#262626** to make the navbar stand out from the rest of the content of the page. I choose **#ff8c00**. because I want to put a bit of my background in it. It pops out of the dark background and it has a special meaning to me.
 
 From there it grew further in my project, if i needed to make sections clear and the footer.
 
@@ -120,6 +120,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
     *  https://leafletjs.com/
     * https://github.com/TravelTimN/ci-ifd-lead/blob/master/week4-leafletjs/leaflet.md
 * For my photo gallery:
+    * https://stackoverflow.com/questions/46842897/i-want-to-make-image-gallery-using-modal
+    * https://stackoverflow.com/questions/23384652/bootstrap-modal-only-showing-backdrop
     * http://thenewcode.com/284/A-Simple-Responsive-JavaScript-Image-Gallery.
     * https://getbootstrap.com/docs/4.4/components/modal/.
 •	JQuery
@@ -172,6 +174,18 @@ All images are in a folder in VS code. Some of the images are turned sideways on
 Solution:
 I have tried many things but when I was working on my map and was looking for it on my page all the images where in the correct position.
 
+### 6 
+Every time I would click on an image to make my modal appear it would  do +1 on the image and description.
+
+Solution:
+I had to put in my code that the Id's where empty before append the data in there.
+
+### Bug 7 
+while working on my modal function, the  modal didn't show any more only the backdrop.
+
+Solution:
+I had to rename the Id of the model and close a tag and it showed again.
+
 ## Remaining bugs
 
 I replaced the markers in my function for Google maps. Now no markers show up in the Google maps map.
@@ -179,7 +193,21 @@ I replaced the markers in my function for Google maps. Now no markers show up in
 
 
 ## Deployment :rocket:
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
+This project was developed using the Visual Studio Code IDE, committed to git and pushed to GitHub.
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into GitHub.
+2. From the list of repositories on the screen, select ceciliabinck/binck-explores-project.
+3. From the menu items under ceciliabinck/binck-explores-project, select Settings.
+4. Scroll down to the GitHub Pages section.
+5. Under Source click the drop-down menu labelled None and select Master Branch
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+8. Click on the link to see the website of ceciliabinck/binck-explores-project, https://ceciliabinck.github.io/binck-explores-project/
+
+
+
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 Different values for environment variables (Heroku Config Vars)?
 Different configuration files?
