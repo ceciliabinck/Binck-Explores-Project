@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css" />
+    <!-- custum style sheet-->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <!--script part of the emailjs.com to make it work-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
     </script>
     <script type="text/javascript">
@@ -15,6 +17,7 @@
 
         })();
     </script>
+
     <title>Binck-Explores</title>
 
 </head>
@@ -24,18 +27,15 @@
         <!-- Sidebar -->
         <nav id="sidebar" class="nav-item">
             <div class="sidebar-header">
-                <h1>BE</h1>
+                <h2>BE</h2>
             </div>
-
             <ul class="list-unstyled components">
-
                 <li>
                     <a href=index.html>Home</a>
                 </li>
                 <li>
                     <a href="about.html">About Us</a>
                 </li>
-
                 <li>
                     <a href="#blog" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Blog</a>
                     <ul class="collapse list-unstyled" id="blog">
@@ -55,20 +55,21 @@
                             <a href="blog.html#going-traveling">Going traveling</a>
                         </li>
                     </ul>
-                    <li>
-                        <a href="portfolio.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="explore.html">Explore countries</a>
-                    </li>
-                    <li class="active">
-                        <a href="contact.html">Contact</a>
-                    </li>
+                </li>
+                <li>
+                    <a href="portfolio.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="explore.html">Explore countries</a>
+                </li>
+                <li class="active">
+                    <a href="contact.html">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
 
-    <!-- name -->
+    <!-- name & social media-->
     <section class="container">
         <div class="row">
             <div class="col-sm-6">
@@ -92,65 +93,38 @@
         <div class="row">
             <div class="col-12">
                 <form onsubmit="return sendMail(this);" class="contact-form">
-
                     <h3>Would you like to get in contact with us? You only need to fill in the form belowe</h3>
-
                     <div id="send">
                     </div>
-
                     <label for="fname">First Name:</label>
-
                     <input class="text-input" type="text" name="first_name" id="fname" required />
-
                     <div class="valid-feedback">
-
                         Looks good!
-
                     </div>
-
                     <label for="lname">Last Name:</label>
-
                     <input class="text-input" type="text" name="last_name" id="lname" required />
-
-
-
                     <label for="email">Email Address:</label>
-
                     <input class="text-input" type="email" name="email_address" id="email" required />
-
-
-
                     <label for="interest">Interested In:</label>
-
                     <input class="text-input" type="text" name="interested_in" id="interest" required />
-
-
-
                     <label for="message">Message</label>
-
                     <textarea class="text-input" id="message" rows="5" required></textarea>
-
-                    <input class="send" type="submit" value="Send">
-
+                    <button id="submit" class="btn btn-lg" type="submit">Send</button>
                 </form>
             </div>
         </div>
-
     </section>
 
-
-    <script src="assets/js/sendEmail.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-
+    <!--script part of the emailjs.com to make it work-->
+    <script src="assets/js/sendEmail.js"></script>
 
 
 </body>
-
-
 
 </html>
