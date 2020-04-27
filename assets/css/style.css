@@ -82,19 +82,15 @@ ul ul a {
     right: 20px;
 }
 
-#social {
+#name {
+    margin-left: 15px;
+}
+
+.social {
     text-align: right;
     font-size: 35px;
     margin-top: 15px;
-}
-
-#social a {
     color: #262626;
-}
-
-.card {
-    margin-top: 50px;
-    margin-bottom: 40px;
 }
 
 
@@ -140,6 +136,42 @@ label {
 
 
 /*---------------------------------- portfolio */
+
+div#gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+#gallery img {
+    width: 33%;
+    padding: 2px 0;
+}
+
+#pop-up h5 {
+    color: #ff8c00;
+}
+
+#pop-up button {
+    color: #262626;
+    background-color: #ff8c00;
+}
+
+.modal-content {
+    background-color: #262626;
+}
+
+.modal-footer {
+    display: block;
+}
+
+.modal-footer p {
+    color: #ff8c00;
+    float: left;
+}
+
+.modal-footer button {
+    float: right;
+}
 
 
 /* ------- Blog --------*/
@@ -194,4 +226,30 @@ footer a {
 
 #mapid {
     height: 180px;
+}
+
+
+/*-------------- media query --------------*/
+
+@media (min-width: 560px) {
+    #sidebar {
+        width: 120px;
+    }
+    .container {
+        margin-left: 130px;
+    }
+    #name {
+        font-size: 2rem;
+        margin-left: 0;
+    }
+    .social {
+        font-size: 25px;
+    }
+    #photo,
+    #send {
+        padding-left: 16px;
+    }
+    #gallery img {
+        width: 100%;
+    }
 }
