@@ -292,7 +292,7 @@ footer a {
 	}
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1024px) {
 	#sidebar {
 		width: 200px;
 	}
@@ -316,4 +316,29 @@ footer a {
 	ul ul a {
 		font-size: 1rem;
 	}
+}
     
+@media (min-width: 1330px) {
+	#sidebar {
+		width: 220px;
+	}
+	.container {
+		margin-left: 240px;
+	}
+	#gallery img {
+		width: 24%;
+	}
+	
+	#name {
+		font-size: 2.6rem;
+	}
+	#sidebar ul li a {
+		font-size: 1.3rem;
+	}
+	ul ul a {
+		font-size: 1.2rem;
+	}
+    h2 {
+        font-size: 2.1rem;
+    }
+}  
