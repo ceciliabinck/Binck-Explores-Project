@@ -77,7 +77,8 @@ All the social media icons I have choose are very understandable for everyone.
 
 ### Color
 
-The colors for this project are **#262626** and **#ff8c00**. I choose **#262626** to make the navbar stand out from the rest of the content of the page. I choose **#ff8c00**. because I want to put a bit of my background in it. It pops out of the dark background and it has a special meaning to me. From there I started using it mwhen I needed to make sections clear.
+The colors for this project are **#262626** and **#ff8c00**. 
+I choose **#262626** to make the navbar stand out from the rest of the content of the page. I choose **#ff8c00**. because I want to put a bit of my background in it. It pops out of the dark background and it has a special meaning to me. From there I started using it mwhen I needed to make sections clear.
 
 
 ## Features
@@ -92,7 +93,7 @@ In addition, you may also use this section to discuss plans for additional featu
 Features Left to Implement
 Another feature idea
 ## Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
 ### languages
 
 * HTML
@@ -107,17 +108,17 @@ In this section, you should mention all of the languages, frameworks, libraries,
 * For the main grid of the page:
     * Bootstrap: <a href="https://bootstrap.com">Click here for Bootstrap</a>
 * For my sidebar:
-    * <a href="https://bootstrapious.com/p/bootstrap-sidebar">I have used the code from here to make the basis</a>.
+    * <a href="https://bootstrapious.com/p/bootstrap-sidebar">I have used the code from here to make the basis</a>
     * <a href="https://getbootstrap.com/docs/4.4/components/navbar/">Get some more information about navbar's</a>
 * To help me with creating a better README.md and documenting my project in a little more detail.
-    * Github, <a href="https://github.com/">Click here for Github</a>.
-    * <a href="https://github.com/Geomint/holiday-destinations"></a>
-    * <a href="https://github.com/AJGreaves/bootstrap-grid-demo/blob/master/README.md"></a>
-    * <a href="https://github.com/ceciliabinck/Travel-with-Rajesh"></a>
+    * Github, <a href="https://github.com/">Click here for Github</a>
+    * <a href="https://github.com/Geomint/holiday-destinations">How a good README.md looks like</a>
+    * <a href="https://github.com/AJGreaves/bootstrap-grid-demo/blob/master/README.md">How a README.md looks like</a>
+    * <a href="https://github.com/ceciliabinck/Travel-with-Rajesh">My last project</a>
     * <a href="https://github.com/tchapi/markdown-cheatsheet">Cheat sheet Markdown</a>
     * <a href="https://www.webfx.com/tools/emoji-cheat-sheet/">Cheat sheet Emoji</a>
 * EmailJS.com, to be able to really send the contact form.
-* www.w3school.com, to get a better idea of some aspects that I need in my project.
+* To get a better knowledge of some aspects that I need in my project
     * <a href="https://www.w3schools.com/jsref/met_win_alert.asp">Window alert() Method</a>
     * <a href="https://www.w3schools.com/colors/colors_picker.asp?colorhex=000000">Pick a color</a>
     * <a href="https://www.w3schools.com/colors/color_tryit.asp?hex=FF8C00">For giving me an idea how the color would look</a>
@@ -127,7 +128,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
     * <a href="https://www.w3schools.com/graphics/google_maps_basic.asp">Google Maps Basic</a>
 * For my map:
     * <a href="https://leafletjs.com/">Click here for Leaflet</a>
-    * <a href="https://github.com/TravelTimN/ci-ifd-lead/blob/master/week4-leafletjs/leaflet.md">Hoow to use Leaflet</a>
+    * <a href="https://github.com/TravelTimN/ci-ifd-lead/blob/master/week4-leafletjs/leaflet.md">How to use Leaflet</a>
 * For my photo gallery:
     * <a href="https://stackoverflow.com/questions/46842897/i-want-to-make-image-gallery-using-modal">I want to make a image gallery using a modal</a>
     * <a href="https://stackoverflow.com/questions/23384652/bootstrap-modal-only-showing-backdrop">Bootstarp model only showing backdrop</a>
@@ -190,7 +191,7 @@ All images are in a folder in VS code. Some of the images are turned sideways on
 Solution:
 I have tried many things but when I was working on my map and was looking for it on my page all the images where in the correct position.
 
-### 6 
+### Bug 6 
 Every time I would click on an image to make my modal appear it would  do +1 on the image and description.
 
 Solution:
@@ -243,5 +244,5 @@ The photos used in this site were obtained from the folder photo's on my compute
 ### Acknowledgements
 I want to thank Tom Dignan for all his help especially when I switched over from cloud9 to Visual Studio Code. Ow what was that difficult to set it up so that I could and I couldn't have done it without his help. he also gave me feedback on different issues I have had. Tom is the best :smiley:.
  
-I received inspiration for this project from my frustration of my lack of Wordpress.
+I received inspiration for this project from my frustration of my lack of knowledge to work with Wordpress.
 
