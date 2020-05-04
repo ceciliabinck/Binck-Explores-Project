@@ -1,5 +1,4 @@
-# Binck Explores
-:house: 
+# Binck Explores :house: 
 
 So a couple of years ago I decided to start showing people that traveling solo isn't that scary and that you can learn a lot about yourself. I have never been very happy about Wordpress, everyone has its own preference, and always wanted to do something else to make it more mine.
 
@@ -144,16 +143,15 @@ I choose **#262626** to make the navbar stand out from the rest of the content o
 * To help me beautify my Html I have used <a href="https://www.freeformatter.com/css-beautifier.html#ad-output">Free Formatter</a>
 
 ## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+(In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:)
 
+### Responsiveness
+### Design
 ### Features
-
 #### Navbar
 #### Modal in Gallery
-
-
 #### Map
 #### Emailjs
  * Created a free account on Emailjs website and connected my personal account to the service
@@ -172,7 +170,7 @@ For any scenarios that have not been automated, test the user stories manually a
 * Tried to sent the form with all the field filled in to see if a success message would appear, it did.
 * Tried to sent the form with all the fields filled in without internet to see if a failed message would appear, it did.
 
---In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.--
+(--In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.--)
 
 
 ## Bugs :bug: in development
@@ -224,7 +222,6 @@ I had to rename the Id of the model and close a tag and it showed again.
 I replaced the markers in my function for Google maps. Now no markers show up in the Google maps map.
 
 
-
 ## Deployment :rocket:
 
 This project was developed using the Visual Studio Code IDE, committed to git and pushed to GitHub.
@@ -240,12 +237,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 8. Click on the link to see the website of ceciliabinck/binck-explores-project, https://ceciliabinck.github.io/binck-explores-project/
 
 
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+(In addition, if it is not obvious, you should also describe how to run your code locally.)
 
 
 ## Credits
