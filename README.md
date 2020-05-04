@@ -42,11 +42,29 @@ The goals for this project is to give people who want to start traveling to stop
 * In my portfolio section in this project you can find more amazing pictures from places I have visited.
 * There is an blog post about challenging myself to travel for more than 3 weeks with only hand luggage. 
 
+### Site owner goals
+* Show my pictures to an audience.
+* Tell people there are not alone in the way they think.
+* Give people inspiration on visiting less popular places.
+* Show people that can't travel how the world looks like.
+
 ## Framework
 
 I made my wireframe on the website moqups.com, it looked like a good website and easier to use then the last website I tried use. I made an mockup for the 5 differnent pages. I will incert the pages in the project in the folder frameworks.
 
+I thought the design looked good but after working on it for a while I found out that it is not going to work as well as I hoped, so I had to make some changes. 
+
+##### Footer
+In the wireframe I have a footer on every page in the same colours as the nav bar but that became to much drakness when you came to the end of the page. Also the layout with the nav bar did not work correctly.
+
+##### Portfolio.html
+The idea was to put a photo gallery and the map on the same page and the gallery in different sections. While I was working on my photo gallery I saw that putting the map and the gallery on one page was not a good idea becasue it would be to much for one page. 
+
+So the map will now come in the explore.html page. Where the map has enough space to be displayed, so that the user can see more than just a couple of countries.
+
 ## Design
+
+The design I come up with for my project is different to most of the webpages that I see on a daily basis and involves a lot of pictures. 
 
 ### Fonts
 
@@ -61,10 +79,7 @@ All the social media icons I have choose are very understandable for everyone.
 
 The colors for this project are **#262626** and **#ff8c00**. I choose **#262626** to make the navbar stand out from the rest of the content of the page. I choose **#ff8c00**. because I want to put a bit of my background in it. It pops out of the dark background and it has a special meaning to me.
 
-From there it grew further in my project, if i needed to make sections clear and the footer.
-
-### Styling 
-The design I come up with for my project is different to most of the webpages that we see on a daily basis and involves a lot of pictures. I thought the design looked good but after working on it for a while I found out that it is not going to work as well as I hoped, so I had to make some changes.
+From there it grew further in my project, if i needed to make sections clear.
 
 
 
