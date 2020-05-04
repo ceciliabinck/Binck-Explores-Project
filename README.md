@@ -54,10 +54,10 @@ I made my wireframe on the website moqups.com, it looked like a good website and
 
 I thought the design looked good but after working on it for a while I found out that it is not going to work as well as I hoped, so I had to make some changes. 
 
-##### Footer
+### Footer
 In the wireframe I have a footer on every page in the same colours as the nav bar but that became to much drakness when you came to the end of the page. Also the layout with the nav bar did not work correctly.
 
-##### Portfolio.html
+### Portfolio.html
 The idea was to put a photo gallery and the map on the same page and the gallery in different sections. While I was working on my photo gallery I saw that putting the map and the gallery on one page was not a good idea becasue it would be to much for one page. 
 
 So the map will now come in the explore.html page. Where the map has enough space to be displayed, so that the user can see more than just a couple of countries.
@@ -88,10 +88,8 @@ I choose **#262626** to make the navbar stand out from the rest of the content o
 * Map
 * Emailjs
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-Features Left to Implement
-Another feature idea
+## Features Left to Implement
+
 ## Technologies Used
 
 ### languages
@@ -117,7 +115,8 @@ Another feature idea
     * <a href="https://github.com/ceciliabinck/Travel-with-Rajesh">My last project</a>
     * <a href="https://github.com/tchapi/markdown-cheatsheet">Cheat sheet Markdown</a>
     * <a href="https://www.webfx.com/tools/emoji-cheat-sheet/">Cheat sheet Emoji</a>
-* EmailJS.com, to be able to really send the contact form.
+* For Sending of my contact form I used:
+    * <a href="https://www.emailjs.com/">To really send the contact form</a>
 * To get a better knowledge of some aspects that I need in my project
     * <a href="https://www.w3schools.com/jsref/met_win_alert.asp">Window alert() Method</a>
     * <a href="https://www.w3schools.com/colors/colors_picker.asp?colorhex=000000">Pick a color</a>
@@ -149,6 +148,23 @@ In this section, you need to convince the assessor that you have conducted enoug
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
+### Features
+
+#### Navbar
+#### Modal in Gallery
+
+
+#### Map
+#### Emailjs
+ * Created a free account on Emailjs website and connected my personal account to the service
+ * Created a new template and send a test email from the email service website and recived a test email
+ * Connected Contact HTML page to EmailJS using the software development kit that they provided and refreshed page and recived a test email
+ * Added in parameters into the template and send a test email from the email service website
+ * Added to the form tag onsubmit="return sendMail(this);". To invoke the function to send the email and added the correct script
+ * Created sendEmail.js and checked if the page is calling the file correct, did this by console.log("Hello"). saw Hello in the console in the DevTools
+ * Used the function from the rosie resume project and it gave an error in the console in the DevTools
+ * The names of the values were not the same as the parameters I put in my templete. So when I Changed this and filled in the contact from and clicked on send I was able to send an email and I receive the email. 
+
 ### Contact form:
 * Went to the Contact page.
 * Tried to send the form without filling in any of the fields to see if an error would appear, it did.
@@ -165,7 +181,7 @@ For any scenarios that have not been automated, test the user stories manually a
 When submitting contact form it gave an error.
 
 Solution:
-I had used the wrong value names in my function so when I gave  the values the same names as the parameters I was able to send and receive an email. 
+I had used the wrong value names in my function so when I gave the values the same names as the parameters I was able to send and receive an email. 
 
 ### Bug 2.
 After setting up my Google maps API it was not showing a map.
@@ -198,7 +214,7 @@ Solution:
 I had to put in my code that the Id's where empty before append the data in there.
 
 ### Bug 7 
-while working on my modal function, the  modal didn't show any more only the backdrop.
+While working on my modal function, the  modal didn't show any more only the backdrop.
 
 Solution:
 I had to rename the Id of the model and close a tag and it showed again.
@@ -236,7 +252,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Content :black_nib:
 
-Most of the contant in this project are frome the webpage www.binckexplores.com. The rest of the content is written by myself.
+Most of the contant in this project are frome the webpage <a href="www.binckexplores.com">Binck Explores</a>. The rest of the content is written by myself.
 
 ### Media :camera:
 The photos used in this site were obtained from the folder photo's on my computer. All the photos used on this site are made by myself while traveling different countries.
