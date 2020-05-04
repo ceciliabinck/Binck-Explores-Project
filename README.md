@@ -31,14 +31,14 @@ The goals for this project is to give people who want to start traveling to stop
 * I want to navigate this website with ease.
 * I want to go travel but I could never go alone but no one has time to go with me.
 * I have always wanted to go to this country but I have no idea where to go and what to visit.
-* saw your Instagram and I want to see more amazing pictures.
-* I want to try a different way of traveling to find out what kind of travel I like.
+* I saw your Instagram and I want to see more amazing pictures.
+* I want to go ot less crowed places, tourist places.
  
 ### How this project can help them
 
 * All menu links work well and there is never a need to use the back button on the site.
 * There are a couple of blog posts that talk about what I think traveling is, how I experienced starting traveling solo and what to do with  those negative scenario's people keep telling you.
-* With the Google  map you can get an idea of all the places I have visited in the different countries I have been to and most of them are not tourist places.
+* With the map you can get an idea of all the places I have visited in the different countries I have been to and most of them are not tourist places.
 * In my portfolio section in this project you can find more amazing pictures from places I have visited.
 * There is an blog post about challenging myself to travel for more than 3 weeks with only hand luggage. 
 
@@ -77,25 +77,15 @@ All the social media icons I have choose are very understandable for everyone.
 
 ### Color
 
-The colors for this project are **#262626** and **#ff8c00**. I choose **#262626** to make the navbar stand out from the rest of the content of the page. I choose **#ff8c00**. because I want to put a bit of my background in it. It pops out of the dark background and it has a special meaning to me.
-
-From there it grew further in my project, if i needed to make sections clear.
-
-
+The colors for this project are **#262626** and **#ff8c00**. I choose **#262626** to make the navbar stand out from the rest of the content of the page. I choose **#ff8c00**. because I want to put a bit of my background in it. It pops out of the dark background and it has a special meaning to me. From there I started using it mwhen I needed to make sections clear.
 
 
 ## Features
 
-### Navbar
-
-
-### Modal in Gallery
-
-### Map
-
-
-### Emailjs
-
+* Navbar
+* Modal in Gallery
+* Map
+* Emailjs
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
@@ -110,42 +100,48 @@ In this section, you should mention all of the languages, frameworks, libraries,
 * JavaScript
 * Markdown
 
-### Tools :tools: & libraries :books:
+### Tools :hammer: & libraries :books:
 
-* Propper: https://popper.js.org/
-* Google Fonts: https://fonts.google.com/
+* Propper: <a href="https://popper.js.org/">Click here for Propper</a>
+* Google Fonts: <a href="https://fonts.google.com/">Click here for Google Fonts</a>
 * For the main grid of the page:
-    * Bootstrap: bootstrap.com
+    * Bootstrap: <a href="https://bootstrap.com">Click here for Bootstrap</a>
 * For my sidebar:
-    * https://bootstrapious.com/p/bootstrap-sidebar, I have used the code from here to make the basis
-    * https://getbootstrap.com/docs/4.4/components/navbar/
+    * <a href="https://bootstrapious.com/p/bootstrap-sidebar">I have used the code from here to make the basis</a>.
+    * <a href="https://getbootstrap.com/docs/4.4/components/navbar/">Get some more information about navbar's</a>
 * To help me with creating a better README.md and documenting my project in a little more detail.
-    * Github, github.com.
-    * https://github.com/Geomint/holiday-destinations
-    * https://github.com/AJGreaves/bootstrap-grid-demo/blob/master/README.md
-    * https://github.com/ceciliabinck/Travel-with-Rajesh
-    * https://github.com/tchapi/markdown-cheatsheet
-    * https://www.webfx.com/tools/emoji-cheat-sheet/
+    * Github, <a href="https://github.com/">Click here for Github</a>.
+    * <a href="https://github.com/Geomint/holiday-destinations"></a>
+    * <a href="https://github.com/AJGreaves/bootstrap-grid-demo/blob/master/README.md"></a>
+    * <a href="https://github.com/ceciliabinck/Travel-with-Rajesh"></a>
+    * <a href="https://github.com/tchapi/markdown-cheatsheet">Cheat sheet Markdown</a>
+    * <a href="https://www.webfx.com/tools/emoji-cheat-sheet/">Cheat sheet Emoji</a>
 * EmailJS.com, to be able to really send the contact form.
 * www.w3school.com, to get a better idea of some aspects that I need in my project.
-    * https://www.w3schools.com/jsref/met_win_alert.asp
-    * https://www.w3schools.com/colors/colors_picker.asp?colorhex=000000
-    * https://www.w3schools.com/colors/color_tryit.asp?hex=FF8C00
+    * <a href="https://www.w3schools.com/jsref/met_win_alert.asp">Window alert() Method</a>
+    * <a href="https://www.w3schools.com/colors/colors_picker.asp?colorhex=000000">Pick a color</a>
+    * <a href="https://www.w3schools.com/colors/color_tryit.asp?hex=FF8C00">For giving me an idea how the color would look</a>
 * For my google maps:
-    * https://github.com/googlemaps/v3-utility-library/tree/master/packages/markerclustererplus
-    * https://console.cloud.google.com/marketplace?organizationId=0&project=ucd-resume-271416
-    * https://www.w3schools.com/graphics/google_maps_basic.asp
+    * <a href="https://github.com/googlemaps/v3-utility-library/tree/master/packages/markerclustererplus">How to make clusters</a>
+    * <a href="https://console.cloud.google.com/marketplace?organizationId=0&project=ucd-resume-271416">My API Key</a>
+    * <a href="https://www.w3schools.com/graphics/google_maps_basic.asp">Google Maps Basic</a>
 * For my map:
-    *  https://leafletjs.com/
-    * https://github.com/TravelTimN/ci-ifd-lead/blob/master/week4-leafletjs/leaflet.md
+    * <a href="https://leafletjs.com/">Click here for Leaflet</a>
+    * <a href="https://github.com/TravelTimN/ci-ifd-lead/blob/master/week4-leafletjs/leaflet.md">Hoow to use Leaflet</a>
 * For my photo gallery:
-    * https://stackoverflow.com/questions/46842897/i-want-to-make-image-gallery-using-modal
-    * https://stackoverflow.com/questions/23384652/bootstrap-modal-only-showing-backdrop
-    * http://thenewcode.com/284/A-Simple-Responsive-JavaScript-Image-Gallery.
-    * https://getbootstrap.com/docs/4.4/components/modal/.
-*	JQuery https://jquery.com/
+    * <a href="https://stackoverflow.com/questions/46842897/i-want-to-make-image-gallery-using-modal">I want to make a image gallery using a modal</a>
+    * <a href="https://stackoverflow.com/questions/23384652/bootstrap-modal-only-showing-backdrop">Bootstarp model only showing backdrop</a>
+    * <a href="http://thenewcode.com/284/A-Simple-Responsive-JavaScript-Image-Gallery">Reponsive JavaScript imag gallery</a> .
+    * <a href="https://getbootstrap.com/docs/4.4/components/modal/">How to make a modal</a>.
+* JQuery <a href="https://jquery.com/">Click here for JQuery</a>
     * I have used this for sending my email.
     * For making my modal in the gallery show up with the correct image and description.
+* For validator I have used:
+    * <a href="http://jigsaw.w3.org/css-validator/#validate_by_input">CSS validator</a>
+    * <a href="https://validator.w3.org/#validate_by_input">HTML validator</a>
+    * <a href="https://codebeautify.org/jsvalidate?__cf_chl_captcha_tk__=be66ac89c6bebf917c463969c70d76a301a34300-1588609304-0-AZwJVyykJn8Y5Sb9OqqsV-9fU73eu-iT1nEYPIFOtC37SHzu4IG2UEe1GkH4JBgbl4b3NDxS-hR6LLAy2gNLELYlMA-DTNVhzsxSmRF0SNtavxCD4S_e_QFGaoU8XLutyNAVKxuIkItEZmB9BF1ICbYNH2P8OVCFbRpUfieHQUxprZBemgDGOebBOjJkfpgRC-PnLhtKEvT4N-UMi7SXQD3RQeJAIgxH-sBotul9P8n2CZ6rxXB22pFsHJyxM5IdCQOhVjwq9dYF7LfjtPsgBSGojwSndLwxH-d68_OSCDakhoOLxBjgCd_Th8AnmLZ3yVwMrVrk45eCALNAmqzh2F5yKC7Y1Bt9PhArk44y2GsgF0zrhiBazSq-hwItCL2qYfbN_wdKzBQQeKtRFeT0FkBbIrXp2Dl1bA3_JwUdcIHc1sz7uRARIjmJyjXMziRp2uoHmAwOp8tgQA8FHYjRHBu0ZE2TYrZI47DUbFrvCmhWm4OI4v3sUV3BfEB3CVPjqQ">JavaSript validator</a>
+    * <a href="https://validatejavascript.com/">JavaSript validator</a>
+* To help me beautify my Html I have used <a href="https://www.freeformatter.com/css-beautifier.html#ad-output">Free Formatter</a>
 
 ## Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
