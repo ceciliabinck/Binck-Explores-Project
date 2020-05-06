@@ -84,7 +84,8 @@ All the social media icons I have choose are very understandable for everyone.
 ### Color
 
 The colors for this project are **#262626** and **#ff8c00**. 
-I choose **#262626** to make the navbar stand out from the rest of the content of the page. I choose **#ff8c00**. because I want to put a bit of my background in it. It pops out of the dark background and it has a special meaning to me. From there I started using it mwhen I needed to make sections clear.
+I thought black #000000 was to harsh for what I wanted. So I choose **#262626** to make the navbar stand out from the rest of the content of the page because the touch of grey in it makes it softer. I want to grap the users attention to the navbar but i do not to have all the attention, as I think the #000000 would do.  
+I choose **#ff8c00**. because I want to put a bit of my background in it. It pops out of the dark background and it has a special meaning to me. From there I started using it making sections clearer.
 
 
 ## Features
@@ -152,29 +153,28 @@ I choose **#262626** to make the navbar stand out from the rest of the content o
 
 
 ## Testing
-(In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:)
+ (in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+ A particularly useful form for describing your testing process is via scenarios, such as:)
 
 ### Responsiveness
 
-**Plan:** 
-**Implementation:** 
-**Result:** 
-**Verdict:**
+**Plan:** My idea was one design that would adjust to different devices. So the navbar would be always about 20% of the screen and the rest would feel the other 80%. The gallery would be one column on the smaller devices and would get one column bigger is it was appropriate.
+**Implementation:** I thought I used the correct bootstrap grid in my project that would make it response correct with different devices. When testing in DevTools with the different devices options I found out that some of the sections did not respond accordingly. So this is a bug that I still have to fix but for now I have put different media queries in place to make the response to different devices better.
+**Result:** It looks good now on different devices. The layout on different screen sizes looks very simular although the flow of the different screen sizes is not perfect. 
+**Verdict:** It works but not based on the expected behavior.
 
 ### Design
 
-**Plan:** I only had a global idea for the design. The navbar would have a darker color and the other column would have an image on the background.
-**Implementation:** 
-**Result:** 
-**Verdict:**
+**Plan:** I only had a global idea for the design. The navbar would have a darker color and the other column would have an image on the background. I want to make the navbar different and interesting and the rest of the pages interesting. I also decided to put nothing on the home page to lat the background image speak for it self. Make it a pick into what is to come.
+**Implementation:** I didn't think that the darkest black worked well voor the navbar, it was to much so I went with a black that is a bit more grey. I played around with different orange tints to see which worked better and I feel this one works good. The idea of an image in the background of the larger column did not work in the pages where there was more than just a bit of text. It clashed to much with each other and it did not make reading the text pleasent. 
+**Result:** I have heard that my colors work good together and that the navbar is something different to most websites that we see daily. Not everyone agrees with my idea for the home page to only show the image.
+**Verdict:** It works based on the expected behaviour.
 
 ### Features
 
 #### Navbar
 
-**Plan:** I wanted to have a vertical navbar on the left side of the page, it would be stuck there even if you needed to scroll down. It should be responsive so it would make sure it wouldalways be max 20% of the screen, no matter what device. 
+**Plan:** I wanted to have a vertical navbar on the left side of the page, it would be stuck there even if you needed to scroll down. It should be responsive so it would make sure it would always be max 20% of the screen, no matter what device. 
 **Implementation:** Making sure the navbar would stick to the left side was easy when I did not have any other content. When I was making the larger column I stumbled on some difficulties. The larger column would go under the navbar. I made a two column grid but this would end up in either the larger column being under the smaller column or the larger column moving under the smaller column. So I had to go back to making the columns stand separte from each other. This makes them stand next to each other.
 **Result:** It works how I was hoping only it is not responsive as I would have wanted it. 
 **Verdict:** It works but not based on the expected behavior.
@@ -187,7 +187,8 @@ For any scenarios that have not been automated, test the user stories manually a
 **Verdict:** It works based on the expected behaviour.
 
 #### Map
-**Plan:** 
+
+**Plan:** The plan for the map is that there are different markers on the map over different countries. When the user clicks on a marker it would take them to an picture that was taken at that place.
 **Implementation:** 
 **Result:** 
 **Verdict:**
@@ -246,7 +247,9 @@ I had to rename the Id of the model and close a tag and it showed again.
 
 ## Remaining bugs
 
-I replaced the markers in my function for Google maps. Now no markers show up in the Google maps map.
+* I replaced the markers in my function for Google maps. Now no markers show up in the Google maps map.
+* The images in the gallery take to long to load.
+* The website only looks good in Chrome, gallery images, background image and when srolling down and than up and than down again the bottom of the navbar is to slow with responding.
 
 
 ## Deployment :rocket:
@@ -264,6 +267,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 8. Click on the link to see the website of ceciliabinck/binck-explores-project, https://ceciliabinck.github.io/binck-explores-project/
 
 ## Running Binck Explores Locally
+
 Cloning Binck Explores from GitHub:
 
 Navigate to https://github.com/ceciliabinck/binck-explores-project.
