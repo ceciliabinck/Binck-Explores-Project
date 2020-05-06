@@ -67,6 +67,7 @@ The idea was to put a photo gallery and the map on the same page and the gallery
 #### Explore.HTML
 So because the gallery and the map where to much information on one page I moved the map to the page explore.html. Where the map has enough space to be displayed, so that the user can see more than just a couple of countries.
 
+
 ## Design
 
 The design I come up with for my project is different to most of the webpages that I see on a daily basis and involves a lot of pictures. 
@@ -262,8 +263,16 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 8. Click on the link to see the website of ceciliabinck/binck-explores-project, https://ceciliabinck.github.io/binck-explores-project/
 
+## Running Binck Explores Locally
+Cloning Binck Explores from GitHub:
 
-(In addition, if it is not obvious, you should also describe how to run your code locally.)
+Navigate to https://github.com/ceciliabinck/binck-explores-project.
+Click the green 'Clone or Download' button.
+Copy the url in the dropdown box.
+Using your favourite IDE open up your preferred terminal.
+Navigate to your desired file location.
+Copy the following code and input it into your terminal to clone binck-explores-project.
+ git clone https://github.com/ceciliabinck/binck-explores-project.git
 
 
 ## Credits
