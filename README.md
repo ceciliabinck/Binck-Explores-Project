@@ -2,7 +2,8 @@
 
 So a couple of years ago I decided to start showing people that traveling solo isn't that scary and that you can learn a lot about yourself. I have never been very happy about Wordpress, everyone has its own preference, and always wanted to do something else to make it more mine.
 
-This second project is for me so to get back at sharing my experience with traveling with people that are interested in traveling but are not ready to take that first step. I don't just want to inspire them to take the first step just by writing blogs, I want to show then that this is a big world with beautiful place by sharing pictures i have made while I was traveling.
+This second project is for me so to get back at sharing my experience with traveling with people that are interested in traveling but are not ready to take that first step. I don't just want to inspire them to take the first step just by writing blogs, I want to show then that this is a big world with beautiful place by sharing pictures I have made while I was traveling.
+
 
 ## UX
 
@@ -47,19 +48,24 @@ The goals for this project is to give people who want to start traveling to stop
 * Give people inspiration on visiting less popular places.
 * Show people that can't travel how the world looks like.
 
+
 ## Framework
 
-I made my wireframe on the website moqups.com, it looked like a good website and easier to use then the last website I tried use. I made an mockup for the 5 differnent pages. I will incert the pages in the project in the folder frameworks.
+I made my wireframe on the website moqups.com, it looked like a good website and easier to use then the last website I tried use. I made an mockup for the 5 differnent pages. My idea was to have almost the same layout on different devices, the navbar column and the larger column next each other. 
+I have incert the pages in the project in the folder frameworks.
 
-I thought the design looked good but after working on it for a while I found out that it is not going to work as well as I hoped, so I had to make some changes. 
+### Changes
 
-### Footer
+I thought the design looked good but after working on it and seeing how the project developt I found out that it is not going to work as well as I hoped, so I had to make some changes. 
+
+#### Footer
 In the wireframe I have a footer on every page in the same colours as the nav bar but that became to much drakness when you came to the end of the page. Also the layout with the nav bar did not work correctly.
 
-### Portfolio.html
+#### Portfolio.html
 The idea was to put a photo gallery and the map on the same page and the gallery in different sections. While I was working on my photo gallery I saw that putting the map and the gallery on one page was not a good idea becasue it would be to much for one page. 
 
-So the map will now come in the explore.html page. Where the map has enough space to be displayed, so that the user can see more than just a couple of countries.
+#### Explore.HTML
+So because the gallery and the map where to much information on one page I moved the map to the page explore.html. Where the map has enough space to be displayed, so that the user can see more than just a couple of countries.
 
 ## Design
 
@@ -88,6 +94,7 @@ I choose **#262626** to make the navbar stand out from the rest of the content o
 * Emailjs
 
 ## Features Left to Implement
+
 
 ## Technologies Used
 
@@ -138,9 +145,10 @@ I choose **#262626** to make the navbar stand out from the rest of the content o
 * For validator I have used:
     * <a href="http://jigsaw.w3.org/css-validator/#validate_by_input">CSS validator</a>
     * <a href="https://validator.w3.org/#validate_by_input">HTML validator</a>
-    * <a href="https://codebeautify.org/jsvalidate?__cf_chl_captcha_tk__=be66ac89c6bebf917c463969c70d76a301a34300-1588609304-0-AZwJVyykJn8Y5Sb9OqqsV-9fU73eu-iT1nEYPIFOtC37SHzu4IG2UEe1GkH4JBgbl4b3NDxS-hR6LLAy2gNLELYlMA-DTNVhzsxSmRF0SNtavxCD4S_e_QFGaoU8XLutyNAVKxuIkItEZmB9BF1ICbYNH2P8OVCFbRpUfieHQUxprZBemgDGOebBOjJkfpgRC-PnLhtKEvT4N-UMi7SXQD3RQeJAIgxH-sBotul9P8n2CZ6rxXB22pFsHJyxM5IdCQOhVjwq9dYF7LfjtPsgBSGojwSndLwxH-d68_OSCDakhoOLxBjgCd_Th8AnmLZ3yVwMrVrk45eCALNAmqzh2F5yKC7Y1Bt9PhArk44y2GsgF0zrhiBazSq-hwItCL2qYfbN_wdKzBQQeKtRFeT0FkBbIrXp2Dl1bA3_JwUdcIHc1sz7uRARIjmJyjXMziRp2uoHmAwOp8tgQA8FHYjRHBu0ZE2TYrZI47DUbFrvCmhWm4OI4v3sUV3BfEB3CVPjqQ">JavaSript validator</a>
-    * <a href="https://validatejavascript.com/">JavaSript validator</a>
+    * <a href="https://codebeautify.org/jsvalidate?__cf_chl_captcha_tk__=be66ac89c6bebf917c463969c70d76a301a34300-1588609304-0-AZwJVyykJn8Y5Sb9OqqsV-9fU73eu-iT1nEYPIFOtC37SHzu4IG2UEe1GkH4JBgbl4b3NDxS-hR6LLAy2gNLELYlMA-DTNVhzsxSmRF0SNtavxCD4S_e_QFGaoU8XLutyNAVKxuIkItEZmB9BF1ICbYNH2P8OVCFbRpUfieHQUxprZBemgDGOebBOjJkfpgRC-PnLhtKEvT4N-UMi7SXQD3RQeJAIgxH-sBotul9P8n2CZ6rxXB22pFsHJyxM5IdCQOhVjwq9dYF7LfjtPsgBSGojwSndLwxH-d68_OSCDakhoOLxBjgCd_Th8AnmLZ3yVwMrVrk45eCALNAmqzh2F5yKC7Y1Bt9PhArk44y2GsgF0zrhiBazSq-hwItCL2qYfbN_wdKzBQQeKtRFeT0FkBbIrXp2Dl1bA3_JwUdcIHc1sz7uRARIjmJyjXMziRp2uoHmAwOp8tgQA8FHYjRHBu0ZE2TYrZI47DUbFrvCmhWm4OI4v3sUV3BfEB3CVPjqQ">JavaScript validator</a>
+    * <a href="https://validatejavascript.com/">JavaScript validator</a>
 * To help me beautify my Html I have used <a href="https://www.freeformatter.com/css-beautifier.html#ad-output">Free Formatter</a>
+
 
 ## Testing
 (In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -148,29 +156,47 @@ Whenever it is feasible, prefer to automate your tests, and if you've done so, p
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:)
 
 ### Responsiveness
+
+**Plan:** 
+**Implementation:** 
+**Result:** 
+**Verdict:**
+
 ### Design
+
+**Plan:** I only had a global idea for the design. The navbar would have a darker color and the other column would have an image on the background.
+**Implementation:** 
+**Result:** 
+**Verdict:**
+
 ### Features
+
 #### Navbar
+
+**Plan:** I wanted to have a vertical navbar on the left side of the page, it would be stuck there even if you needed to scroll down. It should be responsive so it would make sure it wouldalways be max 20% of the screen, no matter what device. 
+**Implementation:** Making sure the navbar would stick to the left side was easy when I did not have any other content. When I was making the larger column I stumbled on some difficulties. The larger column would go under the navbar. I made a two column grid but this would end up in either the larger column being under the smaller column or the larger column moving under the smaller column. So I had to go back to making the columns stand separte from each other. This makes them stand next to each other.
+**Result:** It works how I was hoping only it is not responsive as I would have wanted it. 
+**Verdict:** It works but not based on the expected behavior.
+
 #### Modal in Gallery
+
+**Plan:** The idea was that an user would click on a image and that this image would appear bigger and with a discritpion of where the images was taken.
+**Implementation:** The modal worked fine when I usede the modal button but I needed it to work from clicking on an image. The click event was written ad working first. After that I wrote the part where the image and description where appended in the modal. It first would keep the data so I would get double or tripple the data. After changing that the most difficult part, or at least I thought so, making that it know what image is clicked and the correct data to append in the modal
+**Result:** When you click on an image this will make the modal to appear with the correct data but only if you click on a white space next to an image the modal also will be appear and that should not be happening.
+**Verdict:** It works based on the expected behaviour.
+
 #### Map
-#### Emailjs
- * Created a free account on Emailjs website and connected my personal account to the service
- * Created a new template and send a test email from the email service website and recived a test email
- * Connected Contact HTML page to EmailJS using the software development kit that they provided and refreshed page and recived a test email
- * Added in parameters into the template and send a test email from the email service website
- * Added to the form tag onsubmit="return sendMail(this);". To invoke the function to send the email and added the correct script
- * Created sendEmail.js and checked if the page is calling the file correct, did this by console.log("Hello"). saw Hello in the console in the DevTools
- * Used the function from the rosie resume project and it gave an error in the console in the DevTools
- * The names of the values were not the same as the parameters I put in my templete. So when I Changed this and filled in the contact from and clicked on send I was able to send an email and I receive the email. 
+**Plan:** 
+**Implementation:** 
+**Result:** 
+**Verdict:**
 
 ### Contact form:
-* Went to the Contact page.
-* Tried to send the form without filling in any of the fields to see if an error would appear, it did.
-* Tried to sent the form without filling in a correct email address to see if an error would appear, it did.
-* Tried to sent the form with all the field filled in to see if a success message would appear, it did.
-* Tried to sent the form with all the fields filled in without internet to see if a failed message would appear, it did.
 
-(--In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.--)
+**Plan:** In my last projct I also made a contact form but I didn't know how to make the form send. I have had a lesson on how to send contact form using Emailjs API. So this project I needed to make it send to take a step forward. 
+**Implementation:** It started all very simple as in the lesson but when it came to writing the function it went wrong. Because the template I made was different to the template that I had to make in the lesson. So I had to change that.
+**Result:** I recived an email after sending the contact form.
+**Verdict:** It works in the expected behaviour.
 
 
 ## Bugs :bug: in development
