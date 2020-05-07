@@ -158,47 +158,47 @@ I choose **#ff8c00**. because I want to put a bit of my background in it. It pop
 
 ### Responsiveness
 
-**Plan:** My idea was one design that would adjust to different devices. So the navbar would be always about 20% of the screen and the rest would feel the other 80%. The gallery would be one column on the smaller devices and would get one column bigger is it was appropriate.
-**Implementation:** I thought I used the correct bootstrap grid in my project that would make it response correct with different devices. When testing in DevTools with the different devices options I found out that some of the sections did not respond accordingly. So this is a bug that I still have to fix but for now I have put different media queries in place to make the response to different devices better.
-**Result:** It looks good now on different devices. The layout on different screen sizes looks very simular although the flow of the different screen sizes is not perfect. 
-**Verdict:** It works but not based on the expected behavior.
+* **Plan:** My idea was one design that would adjust to different devices. So the navbar would be always about 20% of the screen and the rest would feel the other 80%. The gallery would be one column on the smaller devices and would get one column bigger is it was appropriate.
+* **Implementation:** I thought I used the correct bootstrap grid in my project that would make it response correct with different devices. When testing in DevTools with the different devices options I found out that some of the sections did not respond accordingly. So this is a bug that I still have to fix but for now I have put different media queries in place to make the response to different devices better.
+* **Result:** It looks good now on different devices. The layout on different screen sizes looks very simular although the flow of the different screen sizes is not perfect. 
+* **Verdict:** It works but not based on the expected behavior.
 
 ### Design
 
-**Plan:** I only had a global idea for the design. The navbar would have a darker color and the other column would have an image on the background. I want to make the navbar different and interesting and the rest of the pages interesting. I also decided to put nothing on the home page to lat the background image speak for it self. Make it a pick into what is to come.
-**Implementation:** I didn't think that the darkest black worked well voor the navbar, it was to much so I went with a black that is a bit more grey. I played around with different orange tints to see which worked better and I feel this one works good. The idea of an image in the background of the larger column did not work in the pages where there was more than just a bit of text. It clashed to much with each other and it did not make reading the text pleasent. 
-**Result:** I have heard that my colors work good together and that the navbar is something different to most websites that we see daily. Not everyone agrees with my idea for the home page to only show the image.
-**Verdict:** It works based on the expected behaviour.
+* **Plan:** I only had a global idea for the design. The navbar would have a darker color and the other column would have an image on the background. I want to make the navbar different and interesting and the rest of the pages interesting. I also decided to put nothing on the home page to lat the background image speak for it self. Make it a pick into what is to come.
+* **Implementation:** I didn't think that the darkest black worked well voor the navbar, it was to much so I went with a black that is a bit more grey. I played around with different orange tints to see which worked better and I feel this one works good. The idea of an image in the background of the larger column did not work in the pages where there was more than just a bit of text. It clashed to much with each other and it did not make reading the text pleasent. 
+* **Result:** I have heard that my colors work good together and that the navbar is something different to most websites that we see daily. Not everyone agrees with my idea for the home page to only show the image.
+* **Verdict:** It works based on the expected behaviour.
 
 ### Features
 
 #### Navbar
 
-**Plan:** I wanted to have a vertical navbar on the left side of the page, it would be stuck there even if you needed to scroll down. It should be responsive so it would make sure it would always be max 20% of the screen, no matter what device. 
-**Implementation:** Making sure the navbar would stick to the left side was easy when I did not have any other content. When I was making the larger column I stumbled on some difficulties. The larger column would go under the navbar. I made a two column grid but this would end up in either the larger column being under the smaller column or the larger column moving under the smaller column. So I had to go back to making the columns stand separte from each other. This makes them stand next to each other.
-**Result:** It works how I was hoping only it is not responsive as I would have wanted it. 
-**Verdict:** It works but not based on the expected behavior.
+* **Plan:** I wanted to have a vertical navbar on the left side of the page, it would be stuck there even if you needed to scroll down. It should be responsive so it would make sure it would always be max 20% of the screen, no matter what device. 
+* **Implementation:** Making sure the navbar would stick to the left side was easy when I did not have any other content. When I was making the larger column I stumbled on some difficulties. The larger column would go under the navbar. I made a two column grid but this would end up in either the larger column being under the smaller column or the larger column moving under the smaller column. So I had to go back to making the columns stand separte from each other. This makes them stand next to each other.
+* **Result:** It works how I was hoping only it is not responsive as I would have wanted it. 
+* **Verdict:** It works but not based on the expected behavior.
 
 #### Modal in Gallery
 
-**Plan:** The idea was that an user would click on a image and that this image would appear bigger and with a discritpion of where the images was taken.
-**Implementation:** The modal worked fine when I usede the modal button but I needed it to work from clicking on an image. The click event was written ad working first. After that I wrote the part where the image and description where appended in the modal. It first would keep the data so I would get double or tripple the data. After changing that the most difficult part, or at least I thought so, making that it know what image is clicked and the correct data to append in the modal
-**Result:** When you click on an image this will make the modal to appear with the correct data but only if you click on a white space next to an image the modal also will be appear and that should not be happening.
-**Verdict:** It works based on the expected behaviour.
+* **Plan:** The idea was that an user would click on a image and that this image would appear bigger and with a discritpion of where the images was taken.
+* **Implementation:** The modal worked fine when I usede the modal button but I needed it to work from clicking on an image. The click event was written ad working first. After that I wrote the part where the image and description where appended in the modal. It first would keep the data so I would get double or tripple the data. After changing that the most difficult part, or at least I thought so, making that it know what image is clicked and the correct data to append in the modal
+* **Result:** When you click on an image this will make the modal to appear with the correct data but only if you click on a white space next to an image the modal also will be appear and that should not be happening.
+* **Verdict:** It works based on the expected behaviour.
 
 #### Map
 
-**Plan:** The plan for the map is that there are different markers on the map over different countries. When the user clicks on a marker it would take them to an picture that was taken at that place.
-**Implementation:** 
-**Result:** 
-**Verdict:**
+* **Plan:** The plan for the map is that there are different markers on the map over different countries. When the user clicks on a marker it would take them to an picture that was taken at that place.
+* **Implementation:** 
+* **Result:** 
+* **Verdict:**
 
 ### Contact form:
 
-**Plan:** In my last projct I also made a contact form but I didn't know how to make the form send. I have had a lesson on how to send contact form using Emailjs API. So this project I needed to make it send to take a step forward. 
-**Implementation:** It started all very simple as in the lesson but when it came to writing the function it went wrong. Because the template I made was different to the template that I had to make in the lesson. So I had to change that.
-**Result:** I recived an email after sending the contact form.
-**Verdict:** It works in the expected behaviour.
+* **Plan:** In my last projct I also made a contact form but I didn't know how to make the form send. I have had a lesson on how to send contact form using Emailjs API. So this project I needed to make it send to take a step forward. 
+* **Implementation:** It started all very simple as in the lesson but when it came to writing the function it went wrong. Because the template I made was different to the template that I had to make in the lesson. So I had to change that.
+* **Result:** I recived an email after sending the contact form.
+* **Verdict:** It works in the expected behaviour.
 
 
 ## Bugs :bug: in development
