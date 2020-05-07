@@ -237,8 +237,9 @@ footer a {
     */
 
 #mapid { 
-	height: 600px; 
-	width: 830px;
+	height: 550px; 
+	width: 1130px;
+	margin-left: -10px;
 	
 }
 
@@ -320,7 +321,7 @@ footer a {
 	}
 }
     
-@media (min-width: 1330px) {
+@media (min-width: 1450px) {
 	#sidebar {
 		width: 220px;
 	}
