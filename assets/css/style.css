@@ -239,7 +239,7 @@ footer a {
 #mapid { 
 	height: 550px; 
 	width: 370px;
-	margin-left: -20px;
+	margin-left: -10px;
 }
 
 
@@ -326,6 +326,7 @@ footer a {
 	#mapid { 
 		height: 550px; 
 		width: 1130px;
+		margin-left: -20px;
 	}
 }
     
