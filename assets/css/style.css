@@ -238,8 +238,8 @@ footer a {
 
 #mapid { 
 	height: 550px; 
-	width: 1130px;
-	margin-left: -10px;
+	width: 370px;
+	margin-left: -20px;
 }
 
 
@@ -292,6 +292,11 @@ footer a {
 		font-size: 2rem;
 		margin-left: 0;
 	}
+
+	#mapid { 
+		height: 550px; 
+		width: 720px;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -317,6 +322,10 @@ footer a {
 	}
 	ul ul a {
 		font-size: 1rem;
+	}
+	#mapid { 
+		height: 550px; 
+		width: 1130px;
 	}
 }
     
