@@ -264,19 +264,19 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 5. Under Source click the drop-down menu labelled None and select Master Branch
 6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
 7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
-8. Click on the link to see the website of ceciliabinck/binck-explores-project, https://ceciliabinck.github.io/binck-explores-project/
+8. Click on the link to see the website of ceciliabinck/binck-explores-project, https://ceciliabinck.github.io/binck-explores/
 
 ## Running Binck Explores Locally
 
 Cloning Binck Explores from GitHub:
 
-Navigate to https://github.com/ceciliabinck/binck-explores-project.
+Navigate to https://github.com/ceciliabinck/binck-explores.
 Click the green 'Clone or Download' button.
 Copy the url in the dropdown box.
 Using your favourite IDE open up your preferred terminal.
 Navigate to your desired file location.
-Copy the following code and input it into your terminal to clone binck-explores-project.
- git clone https://github.com/ceciliabinck/binck-explores-project.git
+Copy the following code and input it into your terminal to clone binck-explores.
+ git clone https://github.com/ceciliabinck/binck-explores.git
 
 
 ## Credits
