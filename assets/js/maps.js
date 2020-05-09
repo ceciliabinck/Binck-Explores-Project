@@ -18,7 +18,7 @@ var marker = L.marker([51.607041, 4.806905]).addTo(map).bindPopup(`<img class="i
 /**
  * Japan
  */
-var marker = L.marker([34.967272, 135.772833]).addTo(map).bindPopup(`<img class="img-fluid" src="assets/img/Gallery/" alt=""/>`).openPopup();
+var marker = L.marker([34.967155, 135.772675]).addTo(map).bindPopup(`<img class="img-fluid" src="assets/img/Gallery/japan/fushimi-shrine.jpg" alt="Thousands of shrines line the path up and down the a mountain"/>`).openPopup();
 
 /**
  * Australia
