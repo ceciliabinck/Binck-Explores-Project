@@ -10,21 +10,49 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(map);
 
 
+/**
+ * Netherlands
+ */
+var marker = L.marker([51.607041, 4.806905]).addTo(map).bindPopup(`<img class="img-fluid" src="assets/img/Gallery/netherlands/sunrise-waterfields.jpg" alt="The sun coming up over the waterfields"/>`).openPopup();
 
-var Marker = L.marker([-22.951993, -43.210439]).addTo(map);
-var marker = L.marker([51.607041, 4.806905]).addTo(map);
-var marker = L.marker([34.967272, 135.772833]).addTo(map);
-var marker = L.marker([-37.917560, 144.986645]).addTo(map);
+/**
+ * Japan
+ */
+var marker = L.marker([34.967272, 135.772833]).addTo(map).bindPopup(`<img class="img-fluid" src="assets/img/Gallery/" alt=""/>`).openPopup();
 
-var marker = L.marker([40.776732, -73.972616]).addTo(map);
-var marker = L.marker([40.706272, -73.996853]).addTo(map);
-var marker = L.marker([51.442101, -116.162161]).addTo(map);
-var marker = L.marker([-50.942461, -73.406777]).addTo(map);
-var marker = L.marker([-17.676188, 177.107665]).addTo(map);
-var marker = L.marker([37.020273, -7.934688]).addTo(map);
-var marker = L.marker([11.484446, 104.901992]).addTo(map);
-var marker = L.marker([40.689461, -74.044511]).addTo(map);
-var marker = L.marker([37.011409, -7.934471]).addTo(map);
+/**
+ * Australia
+ */
+var marker = L.marker([-37.917560, 144.986645]).addTo(map).bindPopup(`<img class="img-fluid" src="assets/img/Gallery/australia/beach-houses.jpg" alt="Some of the famouse beach houses"/>`).openPopup();
+/**
+ * United States
+ */
+var marker = L.marker([40.689461, -74.044511]).addTo(map).bindPopup(`<img class="img-fluid" src="assets/img/Gallery/america/lady-liberty.jpg" alt="View from the ferry of Lady of liberty"/>`).openPopup();
+var marker = L.marker([40.776732, -73.972616]).addTo(map).bindPopup(`<img class="img-fluid" src="assets/img/Gallery/america/buildings-centralpark.jpg" alt="Buildings at the lake in central Park"/>`).openPopup();
+var marker = L.marker([40.706272, -73.996853]).addTo(map).bindPopup(`<img class="img-fluid" src="assets/img/Gallery/america/brooklyn-bridge.jpg" alt="The famous Brooklyn bridge"/>`).openPopup();
+/**
+ * Canada
+ */
+var marker = L.marker([51.442101, -116.162161]).addTo(map).bindPopup(`<img class="img-fluid" src="assets/img/Gallery/canada/view-ski-lakelouise.jpg" alt="One of the many views while skiing at Lake Louise Ski Resort"/>`).openPopup();
+
+/**
+ * Chili
+ */
+var marker = L.marker([-50.942461, -73.406777]).addTo(map).bindPopup(`<img class="img-fluid" src="assets/img/Gallery/chili/torres-del-paine.jpg" alt="View from the lake at Torres Del Paine"/>`).openPopup();
+/**
+ * Fiji
+ */
+var marker = L.marker([-17.676188, 177.107665]).addTo(map).bindPopup(`<img class="img-fluid" src="assets/img/Gallery/fiji/hammock-at-beach.jpg" alt="Hammocks hanging on palmtrees at the beach"/>`).openPopup();
+
+/**
+ * Cambodia
+ */
+var marker = L.marker([11.484446, 104.901992]).addTo(map).bindPopup(`<img class="img-fluid" src="assets/img/Gallery/cambodia/bracelet-memorial.jpg" alt="A braclet memorial at one of the massgraves"/>`).openPopup();
+/**
+ * Portugal
+ */
+var marker = L.marker([37.020273, -7.934688]).addTo(map).bindPopup(`<img class="img-fluid" src="assets/img/Gallery/" alt=""/>`).openPopup();
+var marker = L.marker([37.011409, -7.934471]).addTo(map).bindPopup(`<img class="img-fluid" src="assets/img/Gallery/portugal/train.jpg" alt="An passing train"/>`).openPopup();
 
 var searchControl = L.esri.Geocoding.geosearch().addTo(map);
 
