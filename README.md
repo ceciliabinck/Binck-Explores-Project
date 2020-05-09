@@ -141,6 +141,7 @@ I choose **#ff8c00**. because I want to put a bit of my background in it. It pop
     * <a href="https://stackoverflow.com/questions/23384652/bootstrap-modal-only-showing-backdrop">Bootstarp model only showing backdrop</a>
     * <a href="http://thenewcode.com/284/A-Simple-Responsive-JavaScript-Image-Gallery">Reponsive JavaScript imag gallery</a> .
     * <a href="https://getbootstrap.com/docs/4.4/components/modal/">How to make a modal</a>.
+* <a href="https://tinypng.com/">To compress my images.</a>
 * JQuery <a href="https://jquery.com/">Click here for JQuery</a>
     * I have used this for sending my email.
     * For making my modal in the gallery show up with the correct image and description.
