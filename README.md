@@ -207,49 +207,54 @@ I choose **#ff8c00**. because I want to put a bit of my background in it. It pop
 ### Bug 1.
 When submitting contact form it gave an error.
 
-Solution:
+**Solution:**
 I had used the wrong value names in my function so when I gave the values the same names as the parameters I was able to send and receive an email. 
 
 ### Bug 2.
 After setting up my Google maps API it was not showing a map.
 
-Solution:
+**Solution:**
 Tutor Scott Kipp saw that my function was targeting an ID but in my HTML file I put in a class. So I only had to changed the class in to ID in my HTML file .
 
 ### Bug 3.
 My background image would not cover the entire page or would through off the navbar.
 
-Solution:
+**Solution:**
 Tutor Tim Nelson has looked at it and found that with less css and when put in the body element it works. It will still be under the navbar but it covers the entire page.
 
 ### Bug 4.
 Container keeps sliding under the navbar.
 
-Solution:
+**Solution:**
 I gave the container a margin-left of 220px to push it from going under the navbar.
 
 ### Bug 5.
 All images are in a folder in VS code. Some of the images are turned sideways on my page.
 
-Solution:
+**Solution:**
 I have tried many things but when I was working on my map and was looking for it on my page all the images where in the correct position.
 
 ### Bug 6 
 Every time I would click on an image to make my modal appear it would  do +1 on the image and description.
 
-Solution:
+**Solution:**
 I had to put in my code that the Id's where empty before append the data in there.
 
 ### Bug 7 
 While working on my modal function, the  modal didn't show any more only the backdrop.
 
-Solution:
+**Solution:**
 I had to rename the Id of the model and close a tag and it showed again.
+
+### Bug 8
+The images in the gallery take to long to load and some of the images are turned on there side.
+
+**Solution:**
+Turns out that my images where to big so i had to compress themto make them easier to load for the internet browser.
 
 ## Remaining bugs
 
 * I replaced the markers in my function for Google maps. Now no markers show up in the Google maps map.
-* The images in the gallery take to long to load.
 * The website only looks good in Chrome, gallery images, background image and when srolling down and than up and than down again the bottom of the navbar is to slow with responding.
 
 
