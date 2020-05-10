@@ -67,13 +67,13 @@ p {
 
 #sidebar ul li a {
 	padding: 15px;
-	font-size: .9em;
+	font-size: .9rem;
 	display: block;
 	color: #ff8c00;
 }
 
 ul ul a {
-	font-size: .8 !important;
+	font-size: .8rem !important;
 	padding-left: 20px !important;
 	background: #262626;
 }
@@ -205,32 +205,6 @@ div#gallery {
 #pie {
 	padding-bottom: 10px;
 }
-
-
-/**
-    *------ footer ---------
-    */
-
-footer {
-	height: 160px;
-	text-align: left;
-	position: flex;
-	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
-	background-color: #262626;
-	color: #ff8c00;
-	padding-left: 220px;
-}
-
-footer .col-12 {
-	padding-left: 0;
-}
-
-footer a {
-	color: #ff8c00;
-}
-
 
 /**
     *-------------- map --------------
