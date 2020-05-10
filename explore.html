@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css" />
-    <!------ map ------->
+    <!-- map -->
     <link rel="stylesheet" href="https://unpkg.com/esri-leaflet-geocoder@2.2.13/dist/esri-leaflet-geocoder.css" type="text/css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin=""/>
     
- <!------ style sheets ------->
+    <!-- style sheets -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <title>Binck-Explores</title>
 </head>
@@ -71,11 +71,11 @@
         <div class="row">
             <div class="col-sm-12">
                 <h1 id="name">Binck Explores
-                    <a class="social" target="_blank" class="list-inline-item" href="https://www.instagram.com/binckexplores/">
+                    <a class="social list-inline-item" target="_blank" href="https://www.instagram.com/binckexplores/">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <span class="sr-only">Instagram</span>
                     </a>
-                    <a class="social" target="_blank" class="list-inline-item" href="https://www.instagram.com/ceciliabinck/">
+                    <a class="social list-inline-item" target="_blank" href="https://www.instagram.com/ceciliabinck/">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <span class="sr-only">Instagram</span>
                     </a>
@@ -88,8 +88,33 @@
         <div class="row">
             <div class="col-12">
                 <div id="mapid">
-
                 </div>
+                    <!-- Modal -->
+    <section class="container">
+        <div class="row">
+            <div class="col-12" id="pop-up">
+                <div class="modal fade" id="mapid" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Explore Countries</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body img-fluid" id="modal-img">
+                            </div>
+                            <div class="modal-footer">
+                                <div id="descript"></div>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
             </div>
         </div>
     </div>
@@ -108,7 +133,7 @@
     <!-- add the Esri CDN links for CSS and JavaScript-->
     <script src="https://unpkg.com/esri-leaflet@2.2.4/dist/esri-leaflet.js"></script>
     <script src="https://unpkg.com/esri-leaflet-geocoder@2.2.13/dist/esri-leaflet-geocoder.js"></script>
-    <!------ costum style sheets ------->
+    <!-- costum style sheets -->
     <script src="assets/js/maps.js"></script>
 
 </body>
