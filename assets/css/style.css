@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap');
-
 body {
 	font-family: "Roboto";
 }
@@ -181,15 +180,14 @@ div#gallery {
 	float: right;
 }
 
-
 /**
     * ------- Blog --------
 	*/
 .center {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
 }
 
 #experience-traveling,
@@ -220,8 +218,8 @@ div#gallery {
     *-------------- map --------------
     */
 
-#mapid {
-	height: 550px;
+#mapid { 
+	height: 550px; 
 	width: 370px;
 	margin-left: -10px;
 }
@@ -232,31 +230,30 @@ div#gallery {
     */
 
 @media (min-width: 0) {
+	#bg-image {
+		background: url("assets/img/Gallery/kenia/camel-bg1.jpg") no-repeat center center fixed;
+		background-size: cover;
+	}
 	#sidebar {
 		width: 120px;
 	}
-
 	.container {
 		margin-left: 130px;
 	}
-
 	#name {
 		font-size: 2rem;
 		margin-left: 0;
 	}
-
 	.social {
 		font-size: 25px;
 		float: right;
 		padding: 0 8px;
 		margin-top: 0;
 	}
-
 	#photo,
 	#send {
 		padding-left: 16px;
 	}
-
 	#gallery img {
 		width: 100%;
 	}
@@ -266,28 +263,24 @@ div#gallery {
 	#sidebar {
 		width: 170px;
 	}
-
 	.container {
 		margin-left: 180px;
 	}
-
 	#gallery img {
 		width: 48%;
 	}
-
 	#photo,
 	#send {
 		padding-left: 16px;
 		padding-right: 0;
 	}
-
 	#name {
 		font-size: 2rem;
 		margin-left: 0;
 	}
 
-	#mapid {
-		height: 550px;
+	#mapid { 
+		height: 550px; 
 		width: 720px;
 	}
 }
@@ -296,66 +289,54 @@ div#gallery {
 	#sidebar {
 		width: 200px;
 	}
-
 	.container {
 		margin-left: 220px;
 	}
-
 	#gallery img {
 		width: 32%;
 	}
-
 	#photo,
 	#send {
 		padding-left: 20px;
 		padding-right: 0;
 	}
-
 	#name {
 		font-size: 2.5rem;
 	}
-
 	#sidebar ul li a {
 		font-size: 1.1rem;
 	}
-
 	ul ul a {
 		font-size: 1rem;
 	}
-
-	#mapid {
-		height: 550px;
+	#mapid { 
+		height: 550px; 
 		width: 1130px;
 		margin-left: -20px;
 	}
 }
-
+    
 @media (min-width: 1450px) {
 	#sidebar {
 		width: 220px;
 	}
-
 	.container {
 		margin-left: 240px;
 	}
-
 	#gallery img {
 		width: 24%;
 	}
-
+	
 	#name {
 		font-size: 2.6rem;
 	}
-
 	#sidebar ul li a {
 		font-size: 1.3rem;
 	}
-
 	ul ul a {
 		font-size: 1.2rem;
 	}
-
-	h2 {
-		font-size: 2.1rem;
-	}
-}
+    h2 {
+        font-size: 2.1rem;
+    }
+}  
