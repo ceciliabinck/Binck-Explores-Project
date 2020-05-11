@@ -129,13 +129,10 @@ I choose **#ff8c00**. because I want to put a bit of my background in it. It pop
     * <a href="https://www.w3schools.com/jsref/met_win_alert.asp">Window alert() Method</a>
     * <a href="https://www.w3schools.com/colors/colors_picker.asp?colorhex=000000">Pick a color</a>
     * <a href="https://www.w3schools.com/colors/color_tryit.asp?hex=FF8C00">For giving me an idea how the color would look</a>
-* For my google maps:
-    * <a href="https://github.com/googlemaps/v3-utility-library/tree/master/packages/markerclustererplus">How to make clusters</a>
-    * <a href="https://console.cloud.google.com/marketplace?organizationId=0&project=ucd-resume-271416">My API Key</a>
-    * <a href="https://www.w3schools.com/graphics/google_maps_basic.asp">Google Maps Basic</a>
 * For my map:
     * <a href="https://leafletjs.com/">Click here for Leaflet</a>
     * <a href="https://github.com/TravelTimN/ci-ifd-lead/blob/master/week4-leafletjs/leaflet.md">How to use Leaflet</a>
+* <a href="https://www.w3schools.com/howto/howto_css_image_center.asp">To help put image in the center of page.</a>
 * For my photo gallery:
     * <a href="https://stackoverflow.com/questions/46842897/i-want-to-make-image-gallery-using-modal">I want to make a image gallery using a modal</a>
     * <a href="https://stackoverflow.com/questions/23384652/bootstrap-modal-only-showing-backdrop">Bootstarp model only showing backdrop</a>
