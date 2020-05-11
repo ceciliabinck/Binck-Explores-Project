@@ -1,4 +1,12 @@
+/**
+ * Setting the view how users see it when they get to the page
+ */
+
 map = L.map('mapid').setView([25, 15], 2);
+
+/**
+ * The map API
+ */
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -9,6 +17,9 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1IjoiY2VjaWxpYS04NiIsImEiOiJjazl3eDdoZ3cwNXViM2dsaXR4NWF2cmVyIn0.0NitNMOdk7g1iy_6M1Ce2g'
 }).addTo(map);
 
+/**
+ * Becasue there are a lot of markers I have put them in one object
+ */
 
 let markers = [{
     country: "Netherlands",
@@ -117,11 +128,22 @@ let markers = [{
 }
 ];
 
+/**
+ * This function makes sure every images gets there own marker
+ */
+
 markers.map(visit => {
     marker = L.marker(L.latLng(visit.latitude, visit.longitude)).addTo(map).bindPopup(`<img class="img-fluid" src="${visit.image}" alt="${visit.alt}"/>`);
 });
 
+/**
+ * This is the search bar in the map
+ */
 var searchControl = L.esri.Geocoding.geosearch().addTo(map);
+
+/**
+ * this function makes it easier to look for 2 places even if they are not in the same zoom area
+ */
 
 var results = L.layerGroup().addTo(map);
 searchControl.on("results", function (data) {
