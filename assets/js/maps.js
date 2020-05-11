@@ -93,6 +93,27 @@ let markers = [{
     longitude: -7.934471,
     image:"/assets/img/Gallery/portugal/train.jpg",
     alt:"A train that is passing by", 
+}, 
+{
+    country: "Netherlands",
+    latitude: 51.570160,
+    longitude: 4.651572,
+    image:"/assets/img/Gallery/netherlands/water-lily.jpg",
+    alt:"A water lily in the pound close to home", 
+},
+{
+    country: "Japan",
+    latitude: 35.710078,
+    longitude: 139.810696,
+    image:"/assets/img/Gallery/japan/tokyo-skytree.jpg",
+    alt:"a close view of the Tokyo Skytree at night", 
+},
+{
+    country: "Japan",
+    latitude: 35.027055,
+    longitude: 135.798194,
+    image:"assets\img\Gallery\japan\higashiyama-jisho-ji.jpg",
+    alt:"View of the house from the other side of the pound", 
 }
 ];
 
