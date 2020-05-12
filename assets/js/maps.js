@@ -125,6 +125,48 @@ let markers = [{
     longitude: 135.798194,
     image:"assets/img/Gallery/japan/higashiyama-jisho-ji.jpg",
     alt:"View of the house from the other side of the pound", 
+},
+{
+    country: "Czech Republic",
+    latitude: 50.083551,
+    longitude: 14.395080,
+    image:"assets/img/Gallery/czech-republic/view-praag-castle.jpg",
+    alt:"View from the Petřín Lookout Tower on the castle in Prague", 
+},
+{
+    country: "Chili",
+    latitude: -22.898630,
+    longitude: -68.223798,
+    image:"assets/img/Gallery/chili/dessert-mountains.jpg",
+    alt:"One of the amazing views in the Valle de la Muerte", 
+},
+{
+    country: "Chili",
+    latitude: -41.1344981,
+    longitude: -73.0275077,
+    image:"assets/img/Gallery/chili/dessert-mountains.jpg",
+    alt:"One of the amazing views in the Valle de la Muerte", 
+},
+{
+    country: "Fiji",
+    latitude: -17.675338,
+    longitude: 177.106535,
+    image:"assets/img/Gallery/fiji/sunset-mana.jpg",
+    alt:"View of the sunset near the dock", 
+},
+{
+    country: "Hong Kong",
+    latitude: 22.271026,
+    longitude: 114.150050,
+    image:"assets/img/Gallery/hong-kong/skyline-hong-kong.jpg",
+    alt:"View of the city from Victoria Peak", 
+}, 
+{
+    country: "Kenia",
+    latitude: -1.376388,
+    longitude: 36.744268,
+    image:"assets/img/Gallery/kenia/giraf-with-child.jpg",
+    alt:"A mother giraf with it's child", 
 }
 ];
 

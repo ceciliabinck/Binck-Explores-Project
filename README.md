@@ -133,6 +133,7 @@ I choose **#ff8c00**. because I want to put a bit of my background in it. It pop
     * <a href="https://leafletjs.com/">Click here for Leaflet</a>
     * <a href="https://github.com/TravelTimN/ci-ifd-lead/blob/master/week4-leafletjs/leaflet.md">How to use Leaflet</a>
 * <a href="https://www.w3schools.com/howto/howto_css_image_center.asp">To help put image in the center of page.</a>
+<a href="https://www.google.nl/">Where I found the coordinates</a>
 * For my photo gallery:
     * <a href="https://stackoverflow.com/questions/46842897/i-want-to-make-image-gallery-using-modal">I want to make a image gallery using a modal</a>
     * <a href="https://stackoverflow.com/questions/23384652/bootstrap-modal-only-showing-backdrop">Bootstarp model only showing backdrop</a>
@@ -151,8 +152,18 @@ I choose **#ff8c00**. because I want to put a bit of my background in it. It pop
 
 
 ## Testing
- (in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
- A particularly useful form for describing your testing process is via scenarios, such as:)
+
+### Test cases
+
+Test Cases                                                                      |  Status
+------------------------------------------------------------------------------- | -------------
+As a user, when clicks on an image in the gallery the modal should appear       |    Pass    
+As a user, when clicks on a blog post it should navigate to that blog post      |    Pass
+As a user, when clicks on marker in map, a popup should appear                  |    Pass
+As a user, when clicks on Instagram icon, Instagram should open in blank page   |    Pass
+As a user, when send contact form not correctly filled in, it should block      |    Pass
+As a user, when clicks on blog dropdown should come down with blog posts        |    Pass
+as a user, when search for place in map, the map should go there automatically  |    Pass 
 
 ### Responsiveness
 
@@ -187,9 +198,9 @@ I choose **#ff8c00**. because I want to put a bit of my background in it. It pop
 #### Map
 
 * **Plan:** The plan for the map is that there are different markers on the map over different countries. When the user clicks on a marker it would take them to an picture that was taken at that place.
-* **Implementation:** 
-* **Result:** 
-* **Verdict:**
+* **Implementation:** Making the map was the most difficult part in this all project. After I tried it for 3 times before without any luck. I hit it big, my map appeared in my webpage. After making the map the most difficult was remembering where the images where taking so I could place the marker on the correct place. I made the images bigger to make it better to view them. I have to cluster some of my markers so it is easier to see that there are more than one.
+* **Result:** All the markers and the corresponding popups with images are visable and work correct. When you put in a place in the search bar the map will go to that place on the map.
+* **Verdict:** It works based on the expected behaviour.
 
 ### Contact form:
 
@@ -198,6 +209,11 @@ I choose **#ff8c00**. because I want to put a bit of my background in it. It pop
 * **Result:** I recived an email after sending the contact form.
 * **Verdict:** It works in the expected behaviour.
 
+### User experience
+
+* Ajay Ajodhia
+
+"The interface and the colours makes sure that the website has a calm atmosphere. The text is well and clearly written. It is very welcoming for first time visitors. The map and the gallery has a good interactivity with the pop-up screen. The gallery itself is well organized. The blog has chapters and that is very welcoming. And in the blog. The different blog posts are seperated by borders which has two different colours from eachother."
 
 ## Bugs :bug: in development
 
@@ -251,7 +267,7 @@ Turns out that my images where to big so i had to compress themto make them easi
 
 ## Remaining bugs
 
-* I replaced the markers in my function for Google maps. Now no markers show up in the Google maps map.
+* Sometimes the images are slow to load.
 * The website only looks good in Chrome, gallery images, background image and when srolling down and than up and than down again the bottom of the navbar is to slow with responding.
 
 
@@ -293,6 +309,8 @@ The photos used in this site were obtained from the folder photo's on my compute
 
 ### Acknowledgements
 I want to thank Tom Dignan for all his help especially when I switched over from cloud9 to Visual Studio Code. Ow what was that difficult to set it up so that I could and I couldn't have done it without his help. he also gave me feedback on different issues I have had. Tom is the best :smiley:.
- 
+
+Tim Nelson for all his help when making my map and making it more understandable. Now I feel a lot more confidant that I can make another map that looks as good as this one.
+
 I received inspiration for this project from my frustration of my lack of knowledge to work with Wordpress.
 
