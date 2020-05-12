@@ -198,7 +198,6 @@ div#gallery {
 	margin-bottom: 20px;
 	margin-top: 10px;
 	padding-right: 12px;
-	width: 83%;
 }
 
 #what-could-happen,
@@ -207,7 +206,6 @@ div#gallery {
 	margin-bottom: 20px;
 	margin-top: 10px;
 	padding-right: 12px;
-	width: 83%;
 }
 
 #pie {
@@ -292,6 +290,9 @@ div#gallery {
 	.container {
 		margin-left: 220px;
 	}
+	p {
+		width: 98%;
+	}
 	#gallery img {
 		width: 32%;
 	}
@@ -308,6 +309,15 @@ div#gallery {
 	}
 	ul ul a {
 		font-size: 1rem;
+	}
+
+	#what-could-happen,
+	#luggage-challenge,
+	#experience-traveling,
+	#me-beautiful,
+	#going-traveling,
+	#intro {
+		width: 83%;
 	}
 	#mapid { 
 		height: 550px; 
