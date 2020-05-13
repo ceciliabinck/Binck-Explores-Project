@@ -36,16 +36,6 @@ p {
 	padding: 0;
 }
 
-
-/**
-    *------------------- col----------------
-     */
-
-.col-sm-12 {
-	padding-left: 30px;
-}
-
-
 /** 
     *--------------- Navbar-------------
     */
@@ -179,8 +169,11 @@ div#gallery {
 }
 
 /**
-    * ------- Blog --------
+    * ------- Blog & About--------
 	*/
+.welcome p {
+	width: 98%;
+}
 .center {
 	display: block;
   	margin-left: auto;
@@ -195,7 +188,8 @@ div#gallery {
 	border: solid #ff8c00;
 	margin-bottom: 20px;
 	margin-top: 10px;
-	padding-right: 12px;
+	padding: 0 12px;
+
 }
 
 #what-could-happen,
@@ -203,7 +197,8 @@ div#gallery {
 	border: solid #262626;
 	margin-bottom: 20px;
 	margin-top: 10px;
-	padding-right: 12px;
+	padding: 0 12px;
+
 }
 
 #pie {
@@ -217,7 +212,6 @@ div#gallery {
 #mapid { 
 	height: 550px; 
 	width: 370px;
-	margin-left: -10px;
 }
 
 .leaflet-popup-content {
@@ -291,9 +285,6 @@ div#gallery {
 	.container {
 		margin-left: 220px;
 	}
-	p {
-		width: 98%;
-	}
 	#gallery img {
 		width: 32%;
 	}
@@ -323,7 +314,6 @@ div#gallery {
 	#mapid {
 		height: 550px; 
 		width: 1130px;
-		margin-left: -20px;
 	}
 }
     
