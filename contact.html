@@ -4,15 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        type="text/css" />
     <!-- custum style sheet-->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <!--script part of the emailjs.com to make it work -->
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
     </script>
     <script>
-        (function() {
+        (function () {
             emailjs.init("user_Q53yL3ZFIWtDufzUrjHf6");
 
         })();
@@ -69,53 +71,59 @@
         </nav>
     </header>
 
-    <!-- name & social media -->
-    <section class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1 id="name">Binck Explores
-                    <a class="social list-inline-item" target="_blank" href="https://www.instagram.com/binckexplores/">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-                    <a class="social list-inline-item" target="_blank" href="https://www.instagram.com/ceciliabinck/">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-                </h1>
+    <div class="container">
+        <!-- name & social media -->
+        <section>
+            <div class="row">
+                <div class="col-12">
+                    <h1 id="name">Binck Explores
+                        <a class="social list-inline-item" target="_blank"
+                            href="https://www.instagram.com/binckexplores/">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                        <a class="social list-inline-item" target="_blank"
+                            href="https://www.instagram.com/ceciliabinck/">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </h1>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- contact form -->
-    <section class="form-section container">
-        <div class="row">
-            <div id="send" class="col-12">
-                <form onsubmit="return sendMail(this);" class="contact-form">
-                    <h3>Would you like to get in contact with us? You only need to fill in the form below</h3>
-                    <label for="fname">First Name:</label>
-                    <input class="text-input" type="text" name="first_name" id="fname" required />
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
-                    <label for="lname">Last Name:</label>
-                    <input class="text-input" type="text" name="last_name" id="lname" required />
-                    <label for="email">Email Address:</label>
-                    <input class="text-input" type="email" name="email_address" id="email" required />
-                    <label for="interest">Interested In:</label>
-                    <input class="text-input" type="text" name="interested_in" id="interest" required />
-                    <label for="message">Message</label>
-                    <textarea class="text-input" id="message" rows="5" required></textarea>
-                    <button id="submit" class="btn btn-lg" type="submit">Send</button>
-                </form>
+        <!-- contact form -->
+        <section class="form-section">
+            <div class="row">
+                <div id="send" class="col-sm-12">
+                    <form onsubmit="return sendMail(this);" class="contact-form">
+                        <h3>Would you like to get in contact with us? You only need to fill in the form below</h3>
+                        <label for="fname">First Name:</label>
+                        <input class="text-input" type="text" name="first_name" id="fname" required />
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <label for="lname">Last Name:</label>
+                        <input class="text-input" type="text" name="last_name" id="lname" required />
+                        <label for="email">Email Address:</label>
+                        <input class="text-input" type="email" name="email_address" id="email" required />
+                        <label for="interest">Interested In:</label>
+                        <input class="text-input" type="text" name="interested_in" id="interest" required />
+                        <label for="message">Message</label>
+                        <textarea class="text-input" id="message" rows="5" required></textarea>
+                        <button id="submit" class="btn btn-lg" type="submit">Send</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <!-- script part of the emailjs.com to make it work -->
     <script src="assets/js/sendEmail.js"></script>
