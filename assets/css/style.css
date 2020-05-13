@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap');
 body {
-	font-family: "Roboto";
+    font-family: "Roboto";
 }
 
 #bg-image {
-	background: url("https://raw.githubusercontent.com/ceciliabinck/binck-explores-project/master/assets/img/Gallery/kenia/bg-camel.jpg") no-repeat center center fixed;
-	background-size: cover;
+    background: url("https://raw.githubusercontent.com/ceciliabinck/binck-explores/master/assets/img/Gallery/japan/fushimi-shrine.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 #head {
-	margin-left: 0;
+    margin-left: 0;
 }
 
 h1,
@@ -17,12 +17,12 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: "Merriweather";
-	margin: 15px 0;
+    font-family: "Merriweather";
+    margin: 15px 0;
 }
 
 p {
-	text-align: justify;
+    text-align: justify;
 }
 
 
@@ -31,57 +31,58 @@ p {
     */
 
 .container {
-	margin-left: 210px;
-	min-height: 100%;
-	padding: 0;
+    margin-left: 210px;
+    min-height: 100%;
+    padding: 0;
 }
+
 
 /** 
     *--------------- Navbar-------------
     */
 
 #sidebar {
-	width: 200px;
-	position: fixed;
-	height: 100%;
-	z-index: 999;
-	background: #262626;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    z-index: 999;
+    background: #262626;
 }
 
 #sidebar .sidebar-header {
-	padding-left: 15px;
-	background: #262626;
-	color: #ff8c00;
+    padding-left: 15px;
+    background: #262626;
+    color: #ff8c00;
 }
 
 #sidebar ul li a {
-	padding: 15px;
-	font-size: .9rem;
-	display: block;
-	color: #ff8c00;
+    padding: 15px;
+    font-size: .9rem;
+    display: block;
+    color: #ff8c00;
 }
 
 ul ul a {
-	font-size: .8rem !important;
-	padding-left: 20px !important;
-	background: #262626;
+    font-size: .8rem !important;
+    padding-left: 20px !important;
+    background: #262626;
 }
 
 .dropdown-toggle::after {
-	display: block;
-	position: absolute;
-	right: 20px;
+    display: block;
+    position: absolute;
+    right: 20px;
 }
 
 #name {
-	margin-left: 10px;
+    margin-left: 10px;
 }
 
 .social {
-	text-align: right;
-	font-size: 35px;
-	margin-top: 15px;
-	color: #262626;
+    text-align: right;
+    font-size: 35px;
+    margin-top: 15px;
+    color: #262626;
 }
 
 
@@ -90,41 +91,41 @@ ul ul a {
     */
 
 .form-section {
-	height: auto;
-	margin-top: 30px;
-	display: block;
-	text-align: center;
+    height: auto;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
 }
 
 .contact-form {
-	max-width: 400px;
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
+    max-width: 400px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
 
 .text-input {
-	width: 100%;
-	height: 25px;
-	margin: 5px 0 20px 0;
-	border: 1px solid #525252;
-	border-radius: 2px;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #525252;
+    border-radius: 2px;
 }
 
 label {
-	display: inline-block;
-	margin-bottom: 0;
+    display: inline-block;
+    margin-bottom: 0;
 }
 
 #message {
-	min-height: 100px;
+    min-height: 100px;
 }
 
 #submit {
-	background-color: #262626;
-	color: #ff8c00;
-	width: 140px;
+    background-color: #262626;
+    color: #ff8c00;
+    width: 140px;
 }
 
 
@@ -133,211 +134,220 @@ label {
     */
 
 div#gallery {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #gallery img {
-	width: 33%;
-	padding: 2px 0;
+    width: 33%;
+    padding: 2px 0;
 }
 
 #pop-up h5 {
-	color: #ff8c00;
+    color: #ff8c00;
 }
 
 #pop-up button {
-	color: #262626;
-	background-color: #ff8c00;
+    color: #262626;
+    background-color: #ff8c00;
 }
 
 .modal-content {
-	background-color: #262626;
+    background-color: #262626;
 }
 
 .modal-footer {
-	display: block;
+    display: block;
 }
 
 .modal-footer p {
-	color: #ff8c00;
-	float: left;
+    color: #ff8c00;
+    float: left;
 }
 
 .modal-footer button {
-	float: right;
+    float: right;
 }
+
 
 /**
     * ------- Blog & About--------
 	*/
-.welcome p {
-	width: 98%;
+
+.jumbotron {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 90px;
+    opacity: 0.6;
 }
+
+.welcome p {
+    width: 98%;
+}
+
 .center {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #experience-traveling,
 #me-beautiful,
 #going-traveling,
 #intro {
-	border: solid #ff8c00;
-	margin-bottom: 20px;
-	margin-top: 10px;
-	padding: 0 12px;
-
+    border: solid #ff8c00;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 0 12px;
 }
 
 #what-could-happen,
 #luggage-challenge {
-	border: solid #262626;
-	margin-bottom: 20px;
-	margin-top: 10px;
-	padding: 0 12px;
-
+    border: solid #262626;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 0 12px;
 }
 
 #pie {
-	padding-bottom: 10px;
+    padding-bottom: 10px;
 }
+
 
 /**
     *-------------- map --------------
     */
 
-#mapid { 
-	height: 550px; 
-	width: 370px;
+#mapid {
+    height: 550px;
+    width: 370px;
 }
 
 .leaflet-popup-content {
-	width: 100px;
+    width: 100px;
 }
+
 
 /**
     *------------- media query --------------
     */
 
 @media (min-width: 0) {
-	#bg-image {
-		background: url("https://raw.githubusercontent.com/ceciliabinck/binck-explores/master/assets/img/Gallery/kenia/camel-bg-image.jpg") no-repeat center center fixed;
-		background-size: cover;
-	}
-	#sidebar {
-		width: 120px;
-	}
-	.container {
-		margin-left: 130px;
-	}
-	#name {
-		font-size: 2rem;
-		margin-left: 0;
-	}
-	.social {
-		font-size: 25px;
-		float: right;
-		padding: 0 8px;
-		margin-top: 0;
-	}
-	#photo,
-	#send {
-		padding-left: 16px;
-	}
-	#gallery img {
-		width: 100%;
-	}
+    /* #bg-image {
+        background: url("https://raw.githubusercontent.com/ceciliabinck/binck-explores/master/assets/img/Gallery/kenia/camel-bg-image.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }*/
+    #sidebar {
+        width: 120px;
+    }
+    .container {
+        margin-left: 130px;
+    }
+    #name {
+        font-size: 2rem;
+        margin-left: 0;
+    }
+    .social {
+        font-size: 25px;
+        float: right;
+        padding: 0 8px;
+        margin-top: 0;
+    }
+    #photo,
+    #send {
+        padding-left: 16px;
+    }
+    #gallery img {
+        width: 100%;
+    }
 }
 
 @media (min-width: 768px) {
-	#sidebar {
-		width: 170px;
-	}
-	.container {
-		margin-left: 180px;
-	}
-	#gallery img {
-		width: 48%;
-	}
-	#photo,
-	#send {
-		padding-left: 16px;
-		padding-right: 0;
-	}
-	#name {
-		font-size: 2rem;
-		margin-left: 0;
-	}
-
-	#mapid { 
-		height: 550px; 
-		width: 720px;
-	}
+    #sidebar {
+        width: 170px;
+    }
+    .container {
+        margin-left: 180px;
+    }
+    #gallery img {
+        width: 48%;
+    }
+    #photo,
+    #send {
+        padding-left: 16px;
+        padding-right: 0;
+    }
+    #name {
+        font-size: 2rem;
+        margin-left: 0;
+    }
+    #mapid {
+        height: 550px;
+        width: 720px;
+    }
 }
 
 @media (min-width: 1024px) {
-	#sidebar {
-		width: 200px;
-	}
-	.container {
-		margin-left: 220px;
-	}
-	#gallery img {
-		width: 32%;
-	}
-	#photo,
-	#send {
-		padding-left: 20px;
-		padding-right: 0;
-	}
-	#name {
-		font-size: 2.5rem;
-	}
-	#sidebar ul li a {
-		font-size: 1.1rem;
-	}
-	ul ul a {
-		font-size: 1rem;
-	}
-
-	#what-could-happen,
-	#luggage-challenge,
-	#experience-traveling,
-	#me-beautiful,
-	#going-traveling,
-	#intro {
-		width: 98%;
-	}
-	#mapid {
-		height: 550px; 
-		width: 1130px;
-	}
+    #sidebar {
+        width: 200px;
+    }
+    .container {
+        margin-left: 220px;
+    }
+    #gallery img {
+        width: 32%;
+    }
+    #photo,
+    #send {
+        padding-left: 20px;
+        padding-right: 0;
+    }
+    #name {
+        font-size: 2.5rem;
+    }
+    #sidebar ul li a {
+        font-size: 1.1rem;
+    }
+    ul ul a {
+        font-size: 1rem;
+    }
+    #what-could-happen,
+    #luggage-challenge,
+    #experience-traveling,
+    #me-beautiful,
+    #going-traveling,
+    #intro {
+        width: 98%;
+    }
+    #mapid {
+        height: 550px;
+        width: 1130px;
+    }
 }
-    
+
 @media (min-width: 1450px) {
-	#sidebar {
-		width: 220px;
-	}
-	.container {
-		margin-left: 240px;
-	}
-	#gallery img {
-		width: 24%;
-	}
-	
-	#name {
-		font-size: 2.6rem;
-	}
-	#sidebar ul li a {
-		font-size: 1.3rem;
-	}
-	ul ul a {
-		font-size: 1.2rem;
-	}
+    #sidebar {
+        width: 220px;
+    }
+    .container {
+        margin-left: 240px;
+    }
+    #gallery img {
+        width: 24%;
+    }
+    #name {
+        font-size: 2.6rem;
+    }
+    #sidebar ul li a {
+        font-size: 1.3rem;
+    }
+    ul ul a {
+        font-size: 1.2rem;
+    }
     h2 {
         font-size: 2.1rem;
     }
-}  
+}
