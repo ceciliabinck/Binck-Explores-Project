@@ -155,15 +155,15 @@ I choose **#ff8c00**. because I want to put a bit of my background in it. It pop
 
 ### Test cases
 
-Test Cases                                                                      |  Status
-------------------------------------------------------------------------------- | -------------
-As a user, when clicks on an image in the gallery the modal should appear       |    Pass    
-As a user, when clicks on a blog post it should navigate to that blog post      |    Pass
-As a user, when clicks on marker in map, a popup should appear                  |    Pass
-As a user, when clicks on Instagram icon, Instagram should open in blank page   |    Pass
-As a user, when send contact form not correctly filled in, it should block      |    Pass
-As a user, when clicks on blog dropdown should come down with blog posts        |    Pass
-as a user, when search for place in map, the map should go there automatically  |    Pass 
+|Test Cases                                                                      |  Status      |
+|------------------------------------------------------------------------------- |------------- |
+|As a user, when clicks on an image in the gallery the modal should appear       |    Pass      |
+|As a user, when clicks on a blog post it should navigate to that blog post      |    Pass      |
+|As a user, when clicks on marker in map, a popup should appear                  |    Pass      |
+|As a user, when clicks on Instagram icon, Instagram should open in blank page   |    Pass      |
+|As a user, when send contact form not correctly filled in, it should block      |    Pass      |
+|As a user, when clicks on blog dropdown should come down with blog posts        |    Pass      |
+|As a user, when search for place in map, the map should go there automatically  |    Pass      |
 
 ### Responsiveness
 
