@@ -23,7 +23,6 @@ h5 {
 
 p {
 	text-align: justify;
-	width: 98%;
 }
 
 
@@ -32,7 +31,7 @@ p {
     */
 
 .container {
-	margin-left: 220px;
+	margin-left: 210px;
 	min-height: 100%;
 	padding: 0;
 }
@@ -42,8 +41,7 @@ p {
     *------------------- col----------------
      */
 
-.col,
-.col-12 {
+.col-sm-12 {
 	padding-left: 30px;
 }
 
@@ -86,7 +84,7 @@ ul ul a {
 }
 
 #name {
-	margin-left: 15px;
+	margin-left: 10px;
 }
 
 .social {
@@ -320,9 +318,9 @@ div#gallery {
 	#me-beautiful,
 	#going-traveling,
 	#intro {
-		width: 83%;
+		width: 98%;
 	}
-	#mapid { 
+	#mapid {
 		height: 550px; 
 		width: 1130px;
 		margin-left: -20px;
